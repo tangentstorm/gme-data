@@ -7,11 +7,13 @@ Data on 2021 Activity in Gamestop Stock
 
 path | description
 ---- | -----------
-`raw/finra/*/*.txt` | daily NYSE short volume reports from [FINRA](http://regsho.finra.org/regsho-Index.html).
 `gme/shortvol.txt` | consolidated daily short volume data for GME 
-`fetch_data.py` | python file to fetch/generate all of the above
-`raw/ibkr/borrowable/*` | number of borrowable shares (of GME, GS2C, various ETFS)
+`gme/ibkr/borrowable/*` | number of borrowable shares (of GME, GS2C, various ETFS)
+`raw/sec/ftd/*.txt` | raw total-market [failure to deliver data](https://www.sec.gov/data/foiadocsfailsdatahtm) from the SEC.
+`raw/finra/*/*.txt` | raw cross-exchange short volume reports from [FINRA](http://regsho.finra.org/regsho-Index.html).
+`fetch_data.py` | python file to fetch/generate the short volume data
 `borrowable.py` | python script to fetch borrowable shares from interactive brokers
+
 
 ## Want to help?
 
