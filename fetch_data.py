@@ -68,11 +68,10 @@ def gen_gme_shortvol():
 
 def write_gme_shortvol():
     c = 'Date | Symbol | ShortVolume | ShortExemptVolume | TotalVolume | Market'.split(' | ')
-    w = csv.DictWriter(open(GME_SHORTVOL_PATH, 'w'), fieldnames=c, delimiter='|', lineterminator='\n')
+    w = csv.DictWriter(open(GME_SHORTVOL_PATH, 'w', newline=''), fieldnames=c, delimiter='|', lineterminator='\n')
+    w.writeheader()
     for row in sorted(gen_gme_shortvol(), key=lambda x: (x['Date'], -len(x['Market']), x['Market'])):
-        row['Market'] = row['Market'].strip()
         w.writerow(row)
-
 
 
 if __name__ == "__main__":
