@@ -54,7 +54,6 @@ def main():
 
         for row in lines:
             sym, cur, name, con, isin, rebate, fee, avail, _ = row.split('|')
-            print(sym, tickers)
             if sym in tickers:
                 path = f'raw/ibkr/borrowable/{country}/{sym}.txt'
                 init = not os.path.exists(path)
@@ -63,8 +62,9 @@ def main():
                         f.write('DT|TM|REBATE|FEE|AVAIL\n')
                         add_to_index(country, sym, cur, name, con, isin)
                     # now add the actual data:
-                    f.write('|'.join([dt, ts, rebate, fee, avail]))
+                    f.write('|'.join([dt, ts, rebate, fee, avail])+'\n')
 
 
 if __name__ == "__main__":
+    os.chdir(os.path.dirname(os.path.realpath(__file__))) # for cron
     main()
