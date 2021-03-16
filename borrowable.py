@@ -24,8 +24,10 @@ WANTED = [
     ('de', 'germany.txt', {'GS2C'})]
 
 
+OUTPATH = 'gme/ibkr/borrowable'
+
 def add_to_index(country, *etc):
-    path = f'raw/ibkr/borrowable/index.{country}.txt'
+    path = f'{OUTPATH}/index.{country}.txt'
     init = not os.path.exists(path)
     with open(path, 'a+') as f:
         if init: f.write('SYM|CUR|NAME|CON|ISIN\n')
@@ -55,7 +57,7 @@ def main():
         for row in lines:
             sym, cur, name, con, isin, rebate, fee, avail, _ = row.split('|')
             if sym in tickers:
-                path = f'raw/ibkr/borrowable/{country}/{sym}.txt'
+                path = f'{OUTPATH}/{country}/{sym}.txt'
                 init = not os.path.exists(path)
                 with open(path, 'a+', newline='\n') as f:
                     if init:
