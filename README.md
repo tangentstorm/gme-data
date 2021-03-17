@@ -8,13 +8,15 @@ Data on 2021 Activity in Gamestop Stock
 path | description
 ---- | -----------
 `gme/shortvol.txt` | consolidated daily short volume data for GME 
+`gme/ftd.txt` | daily failure to deliver data, limited to GME and containing ETFs 
 `gme/ibkr/borrowable/*` | number of borrowable shares (of GME, GS2C, various ETFS)
 `raw/sec/ftd/*.txt` | raw total-market [failure to deliver data](https://www.sec.gov/data/foiadocsfailsdatahtm) from the SEC.
 `raw/finra/*/*.txt` | raw cross-exchange short volume reports from [FINRA](http://regsho.finra.org/regsho-Index.html).
 `fetch_data.py` | python file to fetch/generate the short volume data
 `borrowable.py` | python script to fetch borrowable shares from interactive brokers
+`ftd.sh` | shell script to extract failure-to-deliver data
 
 
 ## Want to help?
 
-See the reddit post here: https://www.reddit.com/r/GME/comments/m6a4zj/gmedata_repository_on_github/
+See the [reddit post on /r/GME](https://www.reddit.com/r/GME/comments/m6a4zj/gmedata_repository_on_github/)
