@@ -31,7 +31,7 @@ def add_to_index(country, *etc):
     init = not os.path.exists(path)
     with open(path, 'a+') as f:
         if init: f.write('SYM|CUR|NAME|CON|ISIN\n')
-        f.write('|'.join(etc))
+        f.write('|'.join(etc)+'\n')
 
 
 def main():
