@@ -75,5 +75,6 @@ def write_gme_shortvol():
 
 
 if __name__ == "__main__":
+    os.chdir(os.path.dirname(os.path.realpath(__file__))) # for cron
     fetch_raw_shortvol()
     write_gme_shortvol()
