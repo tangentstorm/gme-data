@@ -8,9 +8,6 @@ import json
 from webull import webull
 from datetime import datetime
 
-wb = webull()
-wb.login(*json.load(open('.wb-creds.json')))
-
 OP_KEYS = [
     # basics about the option
     'symbol', #'GME210319P00001000',
@@ -78,6 +75,9 @@ def main(sym="GME"):
     ym  = now.strftime('%Y%m')
     day = now.strftime('%d')
     hms = now.strftime('%H%M%S')
+
+    wb = webull()
+    wb.login(*json.load(open('.wb-creds.json')))
 
     os.makedirs(f'{ROOT}/{ym}', exist_ok=True)
     f = open(f'{ROOT}/{ym}/{sym}-opchain-{ym}{day}{hms}.txt', 'w')
