@@ -58,7 +58,7 @@ def fetch_raw_shortvol():
 def gen_gme_shortvol():
     """generate gme rows from the raw short volume files"""
     for market in ['CNMS'] + list(FINRA_MARKETS.values()):
-        root = RAW_SHORTVOL_PATH % market
+        root = RAW_SHORTVOL_PATH % market.lower()
         for path in os.listdir(root):
             for row in csv.DictReader(open(os.path.join(root, path)), delimiter='|'):
                 # columns:
