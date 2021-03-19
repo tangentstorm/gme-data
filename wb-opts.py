@@ -1,6 +1,11 @@
 #!/usr/bin/python3
 """
 fetch option chain for $GME from webull
+
+you need to create a file called .wb-creds.json that looks like this:
+
+["user@email.com", "your-webull-password"]
+
 """
 # pip3 install paho-mqtt
 import os
