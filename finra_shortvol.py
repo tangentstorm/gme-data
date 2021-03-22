@@ -62,7 +62,7 @@ def gen_gme_shortvol():
         for path in os.listdir(root):
             for row in csv.DictReader(open(os.path.join(root, path)), delimiter='|'):
                 # columns:
-                if row["Symbol"] == "GME":
+                if row.get("Symbol") == "GME":
                     yield row
 
 
