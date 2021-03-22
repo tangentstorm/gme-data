@@ -13,6 +13,7 @@ path | description
 `gme/ftd.txt` | daily failure to deliver data, limited to GME and containing ETFs
 `gme/ibkr/borrowable/*` | number of borrowable shares (of GME, GS2C, various ETFS)
 `gme/options/*/*` | options chain data from webull (1 file per 5 minute snapshot)
+`gme/bars/*/*` | open/high/low/close/volume bars for various timeframes (currently 1h bars for 1year)
 
 
 The `raw` directory contains the raw files used to generate (some of) the GME-specific data.
@@ -31,6 +32,7 @@ path | description
 `borrowable.py` | python script to fetch borrowable shares from interactive brokers
 `ftd.sh` | shell script to extract failure-to-deliver data
 `wb-opts.py` | python script to fetch option chain from webull
+`ibkr_bars.py` | python script to fetch candlestick+volume data from interactive brokers 
 `crontab.txt` | the `crontab` schedule for running the above programs
 
 ## Want to help?
