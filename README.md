@@ -31,7 +31,7 @@ path | description
 `borrowable.py` | python script to fetch borrowable shares from interactive brokers
 `ftd.sh` | shell script to extract failure-to-deliver data
 `wb-opts.py` | python script to fetch option chain from webull
-
+`crontab.txt` | the `crontab` schedule for running the above programs
 
 ## Want to help?
 
