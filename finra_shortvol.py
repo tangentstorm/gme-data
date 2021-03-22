@@ -1,5 +1,5 @@
 """
-fetch GME data from various websites
+fetch short volume from FINRA
 """
 import datetime
 import os
