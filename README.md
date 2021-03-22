@@ -36,3 +36,4 @@ path | description
 ## Want to help?
 
 See the [reddit post on /r/GME](https://www.reddit.com/r/GME/comments/m6a4zj/gmedata_repository_on_github/)
+or the [discord channel](https://discord.com/channels/823554532814094337/823554533254103092).
