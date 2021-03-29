@@ -1,5 +1,8 @@
+# install with `crontab crontab.txt` (will completely replace your crontab!)
+# or just copy and paste into the schedule after running `crontab -e`
+#
 # m h  dom mon dow   command
 */15 * * * * /usr/bin/python3 ~/ver/gme-data/borrowable.py
 */5 14-21 * * 1-5 /usr/bin/python3 ~/ver/gme-data/wb-opts.py
 0 10 * * * /usr/bin/python3 ~/ver/gme-data/finra_shortvol.py
-
+0  6 * * * ~/ver/gme-data/publish.sh
