@@ -1,0 +1,2 @@
+symbol|open|high|low|preClose|close|activeLevel|change|changeRatio|openIntChange|openInterest|latestPriceVol|volume|delta|gamma|rho|theta|vega|tradeStamptradeTime|ask|avol|bid|bvol
+GME211119C00003000||||174.53|174.53|50|0.00|0.0000|0|50|0|0|1.0000|0.0000|0.0003|0.0000|0.0000||212.10|1|197.10|1
