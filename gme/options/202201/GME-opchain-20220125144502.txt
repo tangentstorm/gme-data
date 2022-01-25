@@ -1,0 +1,4 @@
+symbol|open|high|low|preClose|close|activeLevel|change|changeRatio|openIntChange|openInterest|latestPriceVol|volume|delta|gamma|rho|theta|vega|tradeStamptradeTime|ask|avol|bid|bvol
+GME220128C00040000||||56.00|56.00|28|||4|6|0|0|0.9903|0.0006|0.0020|-0.1218|0.0023||63.90|1|49.50|1
+GME220128P00040000|0.15|0.15|0.15|0.13|0.15|28|0.02|0.1538|1120|3837|5|10|-0.0099|0.0006|-0.0001|-0.1194|0.0024||0.30|15|0.15|32
+GME220128C00050000||||||27||||0|0|0|0.9798|0.0014|0.0028|-0.2102|0.0044||54.05|1|39.65|1
