@@ -1,0 +1,3 @@
+symbol|open|high|low|preClose|close|activeLevel|change|changeRatio|openIntChange|openInterest|latestPriceVol|volume|delta|gamma|rho|theta|vega|tradeStamptradeTime|ask|avol|bid|bvol
+GME220304C00040000||||84.25|84.25|50|||0|6|0|0|0.9994|0.0001|0.0005|-0.0155|0.0002||85.05|9|79.45|9
+GME220304P00040000||||0.02|0.02|50|||118|1810|0|0|-0.0010|0.0001|0.0000|-0.0121|0.0004||0.02|100|0.00|1
