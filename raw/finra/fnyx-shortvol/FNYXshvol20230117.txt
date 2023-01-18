@@ -1,0 +1,774 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/  dc: http://purl.org/dc/terms/  foaf: http://xmlns.com/foaf/0.1/  og: http://ogp.me/ns#  rdfs: http://www.w3.org/2000/01/rdf-schema#  schema: http://schema.org/  sioc: http://rdfs.org/sioc/ns#  sioct: http://rdfs.org/sioc/types#  skos: http://www.w3.org/2004/02/skos/core#  xsd: http://www.w3.org/2001/XMLSchema# ">
+  <head>
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+          new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+      })(window,document,'script','dataLayer','GTM-PX5XDBN');</script>
+    <!-- End Google Tag Manager -->
+    <script defer src="//cdn.jsdelivr.net/bluebird/3.5.0/bluebird.min.js"></script>
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/fetch/2.0.3/fetch.js"></script>
+    <meta charset="utf-8" />
+<link rel="canonical" href="https://www.finra.org/finra-data/browse-catalog/short-sale-volume-data" />
+<meta name="google" content="p6aFpyERRdC4Ror_K0mTRRtXKjAsz35RTQl_MDv_nNg" />
+<meta name="description" content="Short sale trade data is publicly available for off-exchange (OTC) trades in exchange-listed securities reported to a FINRA Trade Reporting Facility (TRF), Alternative Display Facility (ADF), or Over the Counter Reporting Facility (ORF)." />
+<meta name="Generator" content="Drupal 9 (https://www.drupal.org)" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+<meta http-equiv="x-ua-compatible" content="ie=edge" /><script type="text/javascript">(window.NREUM||(NREUM={})).init={ajax:{deny_list:["bam.nr-data.net"]}};(window.NREUM||(NREUM={})).loader_config={licenseKey:"d7b664b4b4",applicationID:"486102969"};/*! For license information please see nr-loader-rum-1221.min.js.LICENSE.txt */
+(function(){var __webpack_modules__={507:function(__unused_webpack_module,__webpack_exports__,__webpack_require__){"use strict";function detectPolyfillFeatures(){var featureStatus={};return checkAndAddFeature("Promise","PROMISE"),checkAndAddFeature("Array.prototype.includes","ARRAY_INCLUDES"),checkAndAddFeature("Object.assign","OBJECT_ASSIGN"),checkAndAddFeature("Object.entries","OBJECT_ENTRIES"),featureStatus;function checkAndAddFeature(funcString,featName){try{var func=eval("self."+funcString);-1!==func.toString().indexOf("[native code]")?featureStatus[featName]=Status.NATIVE:featureStatus[featName]=Status.CHANGED}catch(e){featureStatus[featName]=Status.UNAVAIL}}}__webpack_require__.d(__webpack_exports__,{n:function(){return detectPolyfillFeatures}});var Status={UNAVAIL:"NotSupported",NATIVE:"Detected",CHANGED:"Modified"}},2687:function(e,t,r){"use strict";var n=r(2141);t.Z=(0,n.ky)(16)},1719:function(e,t,r){"use strict";r.d(t,{I:function(){return n}});var n=0,i=navigator.userAgent.match(/Firefox[\/\s](\d+\.\d+)/);i&&(n=+i[1])},3524:function(e,t,r){"use strict";var n,i;if(r.d(t,{H:function(){return i}}),r(8283).B){var o=document.createElement("div");o.innerHTML="\x3c!--[if lte IE 6]><div></div><![endif]--\x3e\x3c!--[if lte IE 7]><div></div><![endif]--\x3e\x3c!--[if lte IE 8]><div></div><![endif]--\x3e\x3c!--[if lte IE 9]><div></div><![endif]--\x3e",n=o.getElementsByTagName("div").length}i=4===n?6:3===n?7:2===n?8:1===n?9:0},5970:function(e,t,r){"use strict";r.d(t,{Mt:function(){return p},C5:function(){return u},OP:function(){return C},Yu:function(){return b},Dg:function(){return d},CX:function(){return s},GE:function(){return h},sU:function(){return R}});var n={};r.r(n),r.d(n,{agent:function(){return w},match:function(){return x},version:function(){return m}});var i=r(4580),o=function(e,t){var r=this;return e&&"object"==typeof e?t&&"object"==typeof t?(Object.assign(this,t),void Object.entries(e).forEach((function(e){var t=e[0],n=e[1];r[t]=n}))):console.error("setting a Configurable requires a model to set its initial properties"):console.error("setting a Configurable requires an object as input")},a={beacon:i.ce.beacon,errorBeacon:i.ce.errorBeacon,licenseKey:void 0,applicationID:void 0,sa:void 0,queueTime:void 0,applicationTime:void 0,ttGuid:void 0,user:void 0,account:void 0,product:void 0,extra:void 0,jsAttributes:{},userAttributes:void 0,atts:void 0,transactionName:void 0,tNamePlain:void 0},c={};function u(e){if(!e)throw new Error("All info objects require an agent identifier!");if(!c[e])throw new Error("Info for "+e+" was never set");return c[e]}function s(e,t){if(!e)throw new Error("All info objects require an agent identifier!");c[e]=new o(t,a),(0,i.Qy)(e,c[e],"info")}var f={privacy:{cookies_enabled:!0},ajax:{deny_list:void 0,enabled:!0},distributed_tracing:{enabled:void 0,exclude_newrelic_header:void 0,cors_use_newrelic_header:void 0,cors_use_tracecontext_headers:void 0,allowed_origins:void 0},ssl:void 0,obfuscate:void 0,jserrors:{enabled:!0},metrics:{enabled:!0},page_action:{enabled:!0},page_view_event:{enabled:!0},page_view_timing:{enabled:!0},session_trace:{enabled:!0},spa:{enabled:!0}},l={};function d(e,t){if(!e)throw new Error("All configuration objects require an agent identifier!");l[e]=new o(t,f),(0,i.Qy)(e,l[e],"config")}function p(e,t){if(!e)throw new Error("All configuration objects require an agent identifier!");var r=function(e){if(!e)throw new Error("All configuration objects require an agent identifier!");if(!l[e])throw new Error("Configuration for "+e+" was never set");return l[e]}(e);if(r){for(var n=t.split("."),i=0;i<n.length-1;i++)if("object"!=typeof(r=r[n[i]]))return;r=r[n[n.length-1]]}return r}var v={accountID:void 0,trustKey:void 0,agentID:void 0,licenseKey:void 0,applicationID:void 0,xpid:void 0},_={};function h(e,t){if(!e)throw new Error("All loader-config objects require an agent identifier!");_[e]=new o(t,v),(0,i.Qy)(e,_[e],"loader_config")}var b=(0,i.mF)().o,g=r(3524),y=r(9206),w=null,m=null;if(navigator.userAgent){var k=navigator.userAgent,O=k.match(/Version\/(\S+)\s+Safari/);O&&-1===k.indexOf("Chrome")&&-1===k.indexOf("Chromium")&&(w="Safari",m=O[1])}function x(e,t){if(!w)return!1;if(e!==w)return!1;if(!t)return!0;if(!m)return!1;for(var r=m.split("."),n=t.split("."),i=0;i<n.length;i++)if(n[i]!==r[i])return!1;return!0}var E=r(2141),P=r(8283).B?window.sessionStorage:void 0,S="NRBA_SESSION_ID";var j=self.XMLHttpRequest,A=j&&j.prototype,q={};function C(e){if(!e)throw new Error("All runtime objects require an agent identifier!");if(!q[e])throw new Error("Runtime for "+e+" was never set");return q[e]}function R(e,t){if(!e)throw new Error("All runtime objects require an agent identifier!");var r,a;q[e]=new o(t,(r=e,{customTransaction:void 0,disabled:!1,features:{},maxBytes:6===g.H?2e3:3e4,offset:(0,y.yf)(),onerror:void 0,origin:""+self.location,ptid:void 0,releaseIds:{},sessionId:1==p(r,"privacy.cookies_enabled")&&P?(null===(a=P.getItem(S))&&(a=(0,E.ky)(16),P.setItem(S,a)),a):null,xhrWrappable:j&&A&&A.addEventListener&&!/CriOS/.test(navigator.userAgent),userAgent:n})),(0,i.Qy)(e,q[e],"runtime")}},8873:function(e,t,r){"use strict";r.d(t,{q:function(){return n}});var n=["1221","PROD"].filter((function(e){return e})).join(".")},1925:function(e,t,r){"use strict";r.d(t,{w:function(){return i}});var n={agentIdentifier:""},i=function(e){var t=this;if("object"!=typeof e)return console.error("shared context requires an object as input");this.sharedContext={},Object.assign(this.sharedContext,n),Object.entries(e).forEach((function(e){var r=e[0],i=e[1];Object.keys(n).includes(r)&&(t.sharedContext[r]=i)}))}},2071:function(e,t,r){"use strict";r.d(t,{ee:function(){return n}});var n,i=r(4580),o=r(9010),a=r(9599),c="nr@context",u=(0,i.fP)();function s(){}function f(){return new s}function l(){(n.backlog.api||n.backlog.feature)&&(n.aborted=!0,n.backlog={})}u.ee?n=u.ee:(n=function e(t,r){var i={},u={},d={},p={on:h,addEventListener:h,removeEventListener:b,emit:_,get:y,listeners:g,context:v,buffer:w,abort:l,aborted:!1,isBuffering:m,debugId:r,backlog:t&&t.backlog?t.backlog:{}};return p;function v(e){return e&&e instanceof s?e:e?(0,o.X)(e,c,f):f()}function _(e,r,i,o,a){if(!1!==a&&(a=!0),!n.aborted||o){t&&a&&t.emit(e,r,i);for(var c=v(i),s=g(e),f=s.length,l=0;l<f;l++)s[l].apply(c,r);var d=k()[u[e]];return d&&d.push([p,e,r,c]),c}}function h(e,t){i[e]=g(e).concat(t)}function b(e,t){var r=i[e];if(r)for(var n=0;n<r.length;n++)r[n]===t&&r.splice(n,1)}function g(e){return i[e]||[]}function y(t){return d[t]=d[t]||e(p,t)}function w(e,t){var r=k();p.aborted||(0,a.D)(e,(function(e,n){t=t||"feature",u[n]=t,t in r||(r[t]=[])}))}function m(e){return!!k()[u[e]]}function k(){return p.backlog}}(void 0,"globalEE"),u.ee=n)},3195:function(e,t,r){"use strict";r.d(t,{E:function(){return n},p:function(){return i}});var n=r(2071).ee.get("handle");function i(e,t,r,i,o){o?(o.buffer([e],i),o.emit(e,t,r)):(n.buffer([e],i),n.emit(e,t,r))}},4539:function(e,t,r){"use strict";r.d(t,{X:function(){return o}});var n=r(3195);o.on=a;var i=o.handlers={};function o(e,t,r,o){a(o||n.E,i,e,t,r)}function a(e,t,r,i,o){o||(o="feature"),e||(e=n.E);var a=t[o]=t[o]||{};(a[r]=a[r]||[]).push([e,i])}},3585:function(e,t,r){"use strict";r.d(t,{m:function(){return o}});var n=!1;try{var i=Object.defineProperty({},"passive",{get:function(){n=!0}});self.addEventListener("testPassive",null,i),self.removeEventListener("testPassive",null,i)}catch(e){}function o(e){return n?{passive:!0,capture:!!e}:!!e}},2141:function(e,t,r){"use strict";function n(){var e=null,t=0,r=self.crypto||self.msCrypto;function n(){return e?15&e[t++]:16*Math.random()|0}r&&r.getRandomValues&&(e=r.getRandomValues(new Uint8Array(31)));for(var i,o="xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx",a="",c=0;c<o.length;c++)a+="x"===(i=o[c])?n().toString(16):"y"===i?(i=3&n()|8).toString(16):i;return a}function i(e){var t=null,r=0,n=self.crypto||self.msCrypto;n&&n.getRandomValues&&Uint8Array&&(t=n.getRandomValues(new Uint8Array(31)));for(var i=[],o=0;o<e;o++)i.push(a().toString(16));return i.join("");function a(){return t?15&t[r++]:16*Math.random()|0}}r.d(t,{Rl:function(){return n},ky:function(){return i}})},9206:function(e,t,r){"use strict";r.d(t,{nb:function(){return u},os:function(){return s},yf:function(){return c},zO:function(){return a}});var n=r(1209),i=(new Date).getTime(),o=i;function a(){return n.G&&performance.now?Math.round(performance.now()):(i=Math.max((new Date).getTime(),i))-o}function c(){return i}function u(e){o=e}function s(){return o}},1209:function(e,t,r){"use strict";var n,i;r.d(t,{G:function(){return o}});var o=void 0!==(null==(n=self.performance)||null==(i=n.timing)?void 0:i.navigationStart)},745:function(e,t,r){"use strict";r.d(t,{s:function(){return c},v:function(){return u}});var n=r(7036),i=r(1719),o=r(9206),a=r(1209),c=!0;function u(e){var t=function(){if(i.I&&i.I<9)return;if(a.G)return c=!1,self.performance.timing.navigationStart}();t&&((0,n.B)(e,"starttime",t),(0,o.nb)(t))}},7036:function(e,t,r){"use strict";r.d(t,{B:function(){return o},L:function(){return a}});var n=r(9206),i={};function o(e,t,r){void 0===r&&(r=(0,n.zO)()+(0,n.os)()),i[e]=i[e]||{},i[e][t]=r}function a(e,t,r,n){var o,a,c=e.sharedContext.agentIdentifier,u=null==(o=i[c])?void 0:o[r],s=null==(a=i[c])?void 0:a[n];void 0!==u&&void 0!==s&&e.store("measures",t,{value:s-u})}},8547:function(e,t,r){"use strict";r.d(t,{T:function(){return i}});var n=r(8283),i={isFileProtocol:function(){var e,t=(0,n.ek)(),r=Boolean("file:"===(null==(e=t.location)?void 0:e.protocol));r&&(i.supportabilityMetricSent=!0);return r},supportabilityMetricSent:!1}},9011:function(e,t,r){"use strict";r.d(t,{K:function(){return o}});var n=r(5970),i=["ajax","jserrors","metrics","page_action","page_view_event","page_view_timing","session_trace","spa"];function o(e){var t={};return i.forEach((function(r){t[r]=function(e,t){return!0!==(0,n.OP)(t).disabled&&!1!==(0,n.Mt)(t,e+".enabled")}(r,e)})),t}},8025:function(e,t,r){"use strict";r.d(t,{W:function(){return i}});var n=r(2071),i=function(e,t,r){void 0===r&&(r=[]),this.agentIdentifier=e,this.aggregator=t,this.ee=n.ee.get(e),this.externalFeatures=r}},9010:function(e,t,r){"use strict";r.d(t,{X:function(){return i}});var n=Object.prototype.hasOwnProperty;function i(e,t,r){if(n.call(e,t))return e[t];var i=r();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:i,writable:!0,enumerable:!1}),i}catch(e){}return e[t]=i,i}},9599:function(e,t,r){"use strict";r.d(t,{D:function(){return i}});var n=Object.prototype.hasOwnProperty;function i(e,t){var r=[],i="",o=0;for(i in e)n.call(e,i)&&(r[o]=t(i,e[i]),o+=1);return r}},248:function(e,t,r){"use strict";r.d(t,{$c:function(){return s},Ng:function(){return f},RR:function(){return u}});var n=r(5970),i=r(1925),o=r(8547);function a(e,t){return a=Object.setPrototypeOf?Object.setPrototypeOf.bind():function(e,t){return e.__proto__=t,e},a(e,t)}var c={regex:/^file:\/\/(.*)/,replacement:"file://OBFUSCATED"},u=function(e){var t,r;function n(t){return e.call(this,t)||this}r=e,(t=n).prototype=Object.create(r.prototype),t.prototype.constructor=t,a(t,r);var i=n.prototype;return i.shouldObfuscate=function(){return s(this.sharedContext.agentIdentifier).length>0},i.obfuscateString=function(e){if(!e||"string"!=typeof e)return e;for(var t=s(this.sharedContext.agentIdentifier),r=e,n=0;n<t.length;n++){var i=t[n].regex,o=t[n].replacement||"*";r=r.replace(i,o)}return r},n}(i.w);function s(e){var t=[],r=(0,n.Mt)(e,"obfuscate")||[];return t=t.concat(r),o.T.isFileProtocol()&&t.push(c),t}function f(e){for(var t=!1,r=!1,n=0;n<e.length;n++){"regex"in e[n]?"string"!=typeof e[n].regex&&e[n].regex.constructor!==RegExp&&(console&&console.warn&&console.warn('An obfuscation replacement rule contains a "regex" value with an invalid type (must be a string or RegExp)'),r=!0):(console&&console.warn&&console.warn('An obfuscation replacement rule was detected missing a "regex" value.'),r=!0);var i=e[n].replacement;i&&"string"!=typeof i&&(console&&console.warn&&console.warn('An obfuscation replacement rule contains a "replacement" value with an invalid type (must be a string)'),t=!0)}return!t&&!r}},4580:function(e,t,r){"use strict";r.d(t,{EZ:function(){return u},Qy:function(){return c},ce:function(){return i},fP:function(){return o},gG:function(){return s},mF:function(){return a}});var n=r(9206),i={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net"};function o(){return self.NREUM||(self.NREUM={}),void 0===self.newrelic&&(self.newrelic=self.NREUM),self.NREUM}function a(){var e=o();if(!e.o){var t=self,r=t.XMLHttpRequest;e.o={ST:setTimeout,SI:t.setImmediate,CT:clearTimeout,XHR:r,REQ:t.Request,EV:t.Event,PR:t.Promise,MO:t.MutationObserver,FETCH:t.fetch}}return e}function c(e,t,r){var i,a,c=o(),u=c.initializedAgents||{},s=u[e]||{};return Object.keys(s).length||(s.initializedAt={ms:(0,n.zO)(),date:new Date}),c.initializedAgents=Object.assign({},u,((a={})[e]=Object.assign({},s,((i={})[r]=t,i)),a)),c}function u(e,t){o()[e]=t}function s(){var e,t;return e=o(),t=e.info||{},e.info=Object.assign({beacon:i.beacon,errorBeacon:i.errorBeacon},t),function(){var e=o(),t=e.init||{};e.init=Object.assign({},t)}(),a(),function(){var e=o(),t=e.loader_config||{};e.loader_config=Object.assign({},t)}(),o()}},8283:function(e,t,r){"use strict";r.d(t,{B:function(){return a},ek:function(){return o},n2:function(){return c}});var n=self,i=n;function o(){return i}var a=Boolean("object"==typeof window&&self.document),c=Boolean("undefined"!=typeof WorkerGlobalScope&&self.navigator instanceof WorkerNavigator)},8539:function(e){e.exports=function(e,t,r){t||(t=0),void 0===r&&(r=e?e.length:0);for(var n=-1,i=r-t||0,o=Array(i<0?0:i);++n<i;)o[n]=e[t+n];return o}}},__webpack_module_cache__={},inProgress,dataWebpackPrefix;function __webpack_require__(e){var t=__webpack_module_cache__[e];if(void 0!==t)return t.exports;var r=__webpack_module_cache__[e]={exports:{}};return __webpack_modules__[e](r,r.exports,__webpack_require__),r.exports}__webpack_require__.m=__webpack_modules__,__webpack_require__.n=function(e){var t=e&&e.__esModule?function(){return e.default}:function(){return e};return __webpack_require__.d(t,{a:t}),t},__webpack_require__.d=function(e,t){for(var r in t)__webpack_require__.o(t,r)&&!__webpack_require__.o(e,r)&&Object.defineProperty(e,r,{enumerable:!0,get:t[r]})},__webpack_require__.f={},__webpack_require__.e=function(e){return Promise.all(Object.keys(__webpack_require__.f).reduce((function(t,r){return __webpack_require__.f[r](e,t),t}),[]))},__webpack_require__.u=function(e){return e+"."+__webpack_require__.h().slice(0,8)+"-1221.js"},__webpack_require__.h=function(){return"25fcbbf1b6e5e9bcbd37"},__webpack_require__.o=function(e,t){return Object.prototype.hasOwnProperty.call(e,t)},inProgress={},dataWebpackPrefix="NRBA:",__webpack_require__.l=function(e,t,r,n){if(inProgress[e])inProgress[e].push(t);else{var i,o;if(void 0!==r)for(var a=document.getElementsByTagName("script"),c=0;c<a.length;c++){var u=a[c];if(u.getAttribute("src")==e||u.getAttribute("data-webpack")==dataWebpackPrefix+r){i=u;break}}i||(o=!0,(i=document.createElement("script")).charset="utf-8",i.timeout=120,__webpack_require__.nc&&i.setAttribute("nonce",__webpack_require__.nc),i.setAttribute("data-webpack",dataWebpackPrefix+r),i.src=e),inProgress[e]=[t];var s=function(t,r){i.onerror=i.onload=null,clearTimeout(f);var n=inProgress[e];if(delete inProgress[e],i.parentNode&&i.parentNode.removeChild(i),n&&n.forEach((function(e){return e(r)})),t)return t(r)},f=setTimeout(s.bind(null,void 0,{type:"timeout",target:i}),12e4);i.onerror=s.bind(null,i.onerror),i.onload=s.bind(null,i.onload),o&&document.head.appendChild(i)}},__webpack_require__.r=function(e){"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},__webpack_require__.p="https://js-agent.newrelic.com/",function(){var e={195:0,10:0};__webpack_require__.f.j=function(t,r){var n=__webpack_require__.o(e,t)?e[t]:void 0;if(0!==n)if(n)r.push(n[2]);else{var i=new Promise((function(r,i){n=e[t]=[r,i]}));r.push(n[2]=i);var o=__webpack_require__.p+__webpack_require__.u(t),a=new Error;__webpack_require__.l(o,(function(r){if(__webpack_require__.o(e,t)&&(0!==(n=e[t])&&(e[t]=void 0),n)){var i=r&&("load"===r.type?"missing":r.type),o=r&&r.target&&r.target.src;a.message="Loading chunk "+t+" failed.\n("+i+": "+o+")",a.name="ChunkLoadError",a.type=i,a.request=o,n[1](a)}}),"chunk-"+t,t)}};var t=function(t,r){var n,i,o=r[0],a=r[1],c=r[2],u=0;if(o.some((function(t){return 0!==e[t]}))){for(n in a)__webpack_require__.o(a,n)&&(__webpack_require__.m[n]=a[n]);if(c)c(__webpack_require__)}for(t&&t(r);u<o.length;u++)i=o[u],__webpack_require__.o(e,i)&&e[i]&&e[i][0](),e[i]=0},r=self.webpackChunkNRBA=self.webpackChunkNRBA||[];r.forEach(t.bind(null,0)),r.push=t.bind(null,r.push.bind(r))}();var __webpack_exports__={};!function(){"use strict";__webpack_require__.r(__webpack_exports__);var e=__webpack_require__(507),t=__webpack_require__(2687),r=__webpack_require__(3585),n=__webpack_require__(8283),i=n.B&&window,o=i&&i.document;function a(e){if(!o||"complete"===o.readyState)return e()||!0}function c(e){a(e)||i.addEventListener("load",e,(0,r.m)(!1))}function u(e){a(e)||o.addEventListener("DOMContentLoaded",e,(0,r.m)(!1))}var s=__webpack_require__(2071);function f(){f=function(){return e};var e={},t=Object.prototype,r=t.hasOwnProperty,n=Object.defineProperty||function(e,t,r){e[t]=r.value},i="function"==typeof Symbol?Symbol:{},o=i.iterator||"@@iterator",a=i.asyncIterator||"@@asyncIterator",c=i.toStringTag||"@@toStringTag";function u(e,t,r){return Object.defineProperty(e,t,{value:r,enumerable:!0,configurable:!0,writable:!0}),e[t]}try{u({},"")}catch(e){u=function(e,t,r){return e[t]=r}}function s(e,t,r,i){var o=t&&t.prototype instanceof p?t:p,a=Object.create(o.prototype),c=new P(i||[]);return n(a,"_invoke",{value:k(e,r,c)}),a}function l(e,t,r){try{return{type:"normal",arg:e.call(t,r)}}catch(e){return{type:"throw",arg:e}}}e.wrap=s;var d={};function p(){}function v(){}function _(){}var h={};u(h,o,(function(){return this}));var b=Object.getPrototypeOf,g=b&&b(b(S([])));g&&g!==t&&r.call(g,o)&&(h=g);var y=_.prototype=p.prototype=Object.create(h);function w(e){["next","throw","return"].forEach((function(t){u(e,t,(function(e){return this._invoke(t,e)}))}))}function m(e,t){function i(n,o,a,c){var u=l(e[n],e,o);if("throw"!==u.type){var s=u.arg,f=s.value;return f&&"object"==typeof f&&r.call(f,"__await")?t.resolve(f.__await).then((function(e){i("next",e,a,c)}),(function(e){i("throw",e,a,c)})):t.resolve(f).then((function(e){s.value=e,a(s)}),(function(e){return i("throw",e,a,c)}))}c(u.arg)}var o;n(this,"_invoke",{value:function(e,r){function n(){return new t((function(t,n){i(e,r,t,n)}))}return o=o?o.then(n,n):n()}})}function k(e,t,r){var n="suspendedStart";return function(i,o){if("executing"===n)throw new Error("Generator is already running");if("completed"===n){if("throw"===i)throw o;return j()}for(r.method=i,r.arg=o;;){var a=r.delegate;if(a){var c=O(a,r);if(c){if(c===d)continue;return c}}if("next"===r.method)r.sent=r._sent=r.arg;else if("throw"===r.method){if("suspendedStart"===n)throw n="completed",r.arg;r.dispatchException(r.arg)}else"return"===r.method&&r.abrupt("return",r.arg);n="executing";var u=l(e,t,r);if("normal"===u.type){if(n=r.done?"completed":"suspendedYield",u.arg===d)continue;return{value:u.arg,done:r.done}}"throw"===u.type&&(n="completed",r.method="throw",r.arg=u.arg)}}}function O(e,t){var r=e.iterator[t.method];if(void 0===r){if(t.delegate=null,"throw"===t.method){if(e.iterator.return&&(t.method="return",t.arg=void 0,O(e,t),"throw"===t.method))return d;t.method="throw",t.arg=new TypeError("The iterator does not provide a 'throw' method")}return d}var n=l(r,e.iterator,t.arg);if("throw"===n.type)return t.method="throw",t.arg=n.arg,t.delegate=null,d;var i=n.arg;return i?i.done?(t[e.resultName]=i.value,t.next=e.nextLoc,"return"!==t.method&&(t.method="next",t.arg=void 0),t.delegate=null,d):i:(t.method="throw",t.arg=new TypeError("iterator result is not an object"),t.delegate=null,d)}function x(e){var t={tryLoc:e[0]};1 in e&&(t.catchLoc=e[1]),2 in e&&(t.finallyLoc=e[2],t.afterLoc=e[3]),this.tryEntries.push(t)}function E(e){var t=e.completion||{};t.type="normal",delete t.arg,e.completion=t}function P(e){this.tryEntries=[{tryLoc:"root"}],e.forEach(x,this),this.reset(!0)}function S(e){if(e){var t=e[o];if(t)return t.call(e);if("function"==typeof e.next)return e;if(!isNaN(e.length)){var n=-1,i=function t(){for(;++n<e.length;)if(r.call(e,n))return t.value=e[n],t.done=!1,t;return t.value=void 0,t.done=!0,t};return i.next=i}}return{next:j}}function j(){return{value:void 0,done:!0}}return v.prototype=_,n(y,"constructor",{value:_,configurable:!0}),n(_,"constructor",{value:v,configurable:!0}),v.displayName=u(_,c,"GeneratorFunction"),e.isGeneratorFunction=function(e){var t="function"==typeof e&&e.constructor;return!!t&&(t===v||"GeneratorFunction"===(t.displayName||t.name))},e.mark=function(e){return Object.setPrototypeOf?Object.setPrototypeOf(e,_):(e.__proto__=_,u(e,c,"GeneratorFunction")),e.prototype=Object.create(y),e},e.awrap=function(e){return{__await:e}},w(m.prototype),u(m.prototype,a,(function(){return this})),e.AsyncIterator=m,e.async=function(t,r,n,i,o){void 0===o&&(o=Promise);var a=new m(s(t,r,n,i),o);return e.isGeneratorFunction(r)?a:a.next().then((function(e){return e.done?e.value:a.next()}))},w(y),u(y,c,"Generator"),u(y,o,(function(){return this})),u(y,"toString",(function(){return"[object Generator]"})),e.keys=function(e){var t=Object(e),r=[];for(var n in t)r.push(n);return r.reverse(),function e(){for(;r.length;){var n=r.pop();if(n in t)return e.value=n,e.done=!1,e}return e.done=!0,e}},e.values=S,P.prototype={constructor:P,reset:function(e){if(this.prev=0,this.next=0,this.sent=this._sent=void 0,this.done=!1,this.delegate=null,this.method="next",this.arg=void 0,this.tryEntries.forEach(E),!e)for(var t in this)"t"===t.charAt(0)&&r.call(this,t)&&!isNaN(+t.slice(1))&&(this[t]=void 0)},stop:function(){this.done=!0;var e=this.tryEntries[0].completion;if("throw"===e.type)throw e.arg;return this.rval},dispatchException:function(e){if(this.done)throw e;var t=this;function n(r,n){return a.type="throw",a.arg=e,t.next=r,n&&(t.method="next",t.arg=void 0),!!n}for(var i=this.tryEntries.length-1;i>=0;--i){var o=this.tryEntries[i],a=o.completion;if("root"===o.tryLoc)return n("end");if(o.tryLoc<=this.prev){var c=r.call(o,"catchLoc"),u=r.call(o,"finallyLoc");if(c&&u){if(this.prev<o.catchLoc)return n(o.catchLoc,!0);if(this.prev<o.finallyLoc)return n(o.finallyLoc)}else if(c){if(this.prev<o.catchLoc)return n(o.catchLoc,!0)}else{if(!u)throw new Error("try statement without catch or finally");if(this.prev<o.finallyLoc)return n(o.finallyLoc)}}}},abrupt:function(e,t){for(var n=this.tryEntries.length-1;n>=0;--n){var i=this.tryEntries[n];if(i.tryLoc<=this.prev&&r.call(i,"finallyLoc")&&this.prev<i.finallyLoc){var o=i;break}}o&&("break"===e||"continue"===e)&&o.tryLoc<=t&&t<=o.finallyLoc&&(o=null);var a=o?o.completion:{};return a.type=e,a.arg=t,o?(this.method="next",this.next=o.finallyLoc,d):this.complete(a)},complete:function(e,t){if("throw"===e.type)throw e.arg;return"break"===e.type||"continue"===e.type?this.next=e.arg:"return"===e.type?(this.rval=this.arg=e.arg,this.method="return",this.next="end"):"normal"===e.type&&t&&(this.next=t),d},finish:function(e){for(var t=this.tryEntries.length-1;t>=0;--t){var r=this.tryEntries[t];if(r.finallyLoc===e)return this.complete(r.completion,r.afterLoc),E(r),d}},catch:function(e){for(var t=this.tryEntries.length-1;t>=0;--t){var r=this.tryEntries[t];if(r.tryLoc===e){var n=r.completion;if("throw"===n.type){var i=n.arg;E(r)}return i}}throw new Error("illegal catch attempt")},delegateYield:function(e,t,r){return this.delegate={iterator:S(e),resultName:t,nextLoc:r},"next"===this.method&&(this.arg=void 0),d}},e}function l(e,t,r,n,i,o,a){try{var c=e[o](a),u=c.value}catch(e){return void r(e)}c.done?t(u):Promise.resolve(u).then(n,i)}var d=0;function p(e){var t;(t=f().mark((function t(){var r,n;return f().wrap((function(t){for(;;)switch(t.prev=t.next){case 0:if(!d++){t.next=2;break}return t.abrupt("return");case 2:return t.prev=2,t.next=5,__webpack_require__.e(859).then(__webpack_require__.bind(__webpack_require__,7859));case 5:return r=t.sent,n=r.aggregator,t.next=9,n(e);case 9:t.next=15;break;case 11:t.prev=11,t.t0=t.catch(2),console.error("Failed to successfully load all aggregators. Aborting...\n",t.t0),s.ee.abort();case 15:case"end":return t.stop()}}),t,null,[[2,11]])})),function(){var e=this,r=arguments;return new Promise((function(n,i){var o=t.apply(e,r);function a(e){l(o,n,i,a,c,"next",e)}function c(e){l(o,n,i,a,c,"throw",e)}a(void 0)}))})()}var v=__webpack_require__(8539),_=__webpack_require__.n(v),h=__webpack_require__(4580),b=__webpack_require__(5970),g=__webpack_require__(3195),y=__webpack_require__(9599),w=__webpack_require__(9206);var m=!1;var k=__webpack_require__(7036),O=__webpack_require__(745),x=__webpack_require__(8025);function E(e,t){return E=Object.setPrototypeOf?Object.setPrototypeOf.bind():function(e,t){return e.__proto__=t,e},E(e,t)}var P,S,j,A=function(e){var t,r;function i(t){var r;return r=e.call(this,t)||this,n.B?((0,O.v)(t),(0,k.B)(t,"firstbyte",(0,w.yf)()),c((function(){return r.measureWindowLoaded()})),u((function(){return r.measureDomContentLoaded()})),r):function(e){if(void 0===e)throw new ReferenceError("this hasn't been initialised - super() hasn't been called");return e}(r)}r=e,(t=i).prototype=Object.create(r.prototype),t.prototype.constructor=t,E(t,r);var o=i.prototype;return o.measureWindowLoaded=function(){var e=(0,w.zO)();(0,k.B)(this.agentIdentifier,"onload",e+(0,w.os)()),(0,g.p)("timing",["load",e],void 0,void 0,this.ee)},o.measureDomContentLoaded=function(){(0,k.B)(this.agentIdentifier,"domContent",(0,w.zO)()+(0,w.os)())},i}(x.W);function q(e,t){return q=Object.setPrototypeOf?Object.setPrototypeOf.bind():function(e,t){return e.__proto__=t,e},q(e,t)}n.B&&(void 0!==document.hidden?(P="hidden",S="visibilitychange",j="visibilityState"):void 0!==document.msHidden?(P="msHidden",S="msvisibilitychange"):void 0!==document.webkitHidden&&(P="webkitHidden",S="webkitvisibilitychange",j="webkitVisibilityState"));var C=function(e){var t,i;function o(t){var i,o;if(!(i=e.call(this,t)||this).isEnabled()||!n.B)return function(e){if(void 0===e)throw new ReferenceError("this hasn't been initialised - super() hasn't been called");return e}(i);if(i.pageHiddenTime="hidden"===document.visibilityState?-1:1/0,i.performanceObserver,i.lcpPerformanceObserver,i.clsPerformanceObserver,i.fiRecorded=!1,"PerformanceObserver"in window&&"function"==typeof window.PerformanceObserver){i.performanceObserver=new PerformanceObserver((function(){var e;return(e=i).perfObserver.apply(e,arguments)}));try{i.performanceObserver.observe({entryTypes:["paint"]})}catch(e){}i.lcpPerformanceObserver=new PerformanceObserver((function(){var e;return(e=i).lcpObserver.apply(e,arguments)}));try{i.lcpPerformanceObserver.observe({entryTypes:["largest-contentful-paint"]})}catch(e){}i.clsPerformanceObserver=new PerformanceObserver((function(){var e;return(e=i).clsObserver.apply(e,arguments)}));try{i.clsPerformanceObserver.observe({type:"layout-shift",buffered:!0})}catch(e){}}if("addEventListener"in document){i.fiRecorded=!1;["click","keydown","mousedown","pointerdown","touchstart"].forEach((function(e){document.addEventListener(e,(function(){var e;return(e=i).captureInteraction.apply(e,arguments)}),(0,r.m)(!1))}))}return o=function(){var e;return(e=i).captureVisibilityChange.apply(e,arguments)},"addEventListener"in document&&S&&document.addEventListener(S,(function(){j&&document[j]?o(document[j]):document[P]?o("hidden"):o("visible")}),(0,r.m)(!1)),i}i=e,(t=o).prototype=Object.create(i.prototype),t.prototype.constructor=t,q(t,i);var a=o.prototype;return a.isEnabled=function(){return!1!==(0,b.Mt)(this.agentIdentifier,"page_view_timing.enabled")},a.perfObserver=function(e,t){var r=this;e.getEntries().forEach((function(e){"first-paint"===e.name?(0,g.p)("timing",["fp",Math.floor(e.startTime)],void 0,void 0,r.ee):"first-contentful-paint"===e.name&&(0,g.p)("timing",["fcp",Math.floor(e.startTime)],void 0,void 0,r.ee)}))},a.lcpObserver=function(e,t){var r=e.getEntries();if(r.length>0){var n=r[r.length-1];if(this.pageHiddenTime<n.startTime)return;var i=[n],o=this.addConnectionAttributes({});o&&i.push(o),(0,g.p)("lcp",i,void 0,void 0,this.ee)}},a.clsObserver=function(e){var t=this;e.getEntries().forEach((function(e){e.hadRecentInput||(0,g.p)("cls",[e],void 0,void 0,t.ee)}))},a.addConnectionAttributes=function(e){var t=navigator.connection||navigator.mozConnection||navigator.webkitConnection;if(t)return t.type&&(e["net-type"]=t.type),t.effectiveType&&(e["net-etype"]=t.effectiveType),t.rtt&&(e["net-rtt"]=t.rtt),t.downlink&&(e["net-dlink"]=t.downlink),e},a.captureInteraction=function(e){if(e instanceof b.Yu.EV&&!this.fiRecorded){var t=Math.round(e.timeStamp),r={type:e.type};this.addConnectionAttributes(r),t<=(0,w.zO)()?r.fid=(0,w.zO)()-t:t>(0,w.os)()&&t<=Date.now()?(t-=(0,w.os)(),r.fid=(0,w.zO)()-t):t=(0,w.zO)(),this.fiRecorded=!0,(0,g.p)("timing",["fi",t,r],void 0,void 0,this.ee)}},a.captureVisibilityChange=function(e){"hidden"===e&&(this.pageHiddenTime=(0,w.zO)(),(0,g.p)("pageHide",[this.pageHiddenTime],void 0,void 0,this.ee))},o}(x.W),R=__webpack_require__(4539),L="React",T="Angular",N="AngularJS",I="Backbone",B="Ember",M="Vue",D="Meteor",F="Zepto",G="Jquery";function W(){if(!n.B)return[];var e=[];try{(function(){try{if(window.React||window.ReactDOM||window.ReactRedux)return!0;if(document.querySelector("[data-reactroot], [data-reactid]"))return!0;for(var e=document.querySelectorAll("body > div"),t=0;t<e.length;t++)if(Object.keys(e[t]).indexOf("_reactRootContainer")>=0)return!0;return!1}catch(e){return!1}})()&&e.push(L),function(){try{return!!window.angular||(!!document.querySelector(".ng-binding, [ng-app], [data-ng-app], [ng-controller], [data-ng-controller], [ng-repeat], [data-ng-repeat]")||!!document.querySelector('script[src*="angular.js"], script[src*="angular.min.js"]'))}catch(e){return!1}}()&&e.push(N),function(){try{return!!(window.hasOwnProperty("ng")&&window.ng.hasOwnProperty("coreTokens")&&window.ng.coreTokens.hasOwnProperty("NgZone"))||!!document.querySelectorAll("[ng-version]").length}catch(e){return!1}}()&&e.push(T),window.Backbone&&e.push(I),window.Ember&&e.push(B),window.Vue&&e.push(M),window.Meteor&&e.push(D),window.Zepto&&e.push(F),window.jQuery&&e.push(G)}catch(e){}return e}var H,z=__webpack_require__(8547),V=__webpack_require__(248),U=__webpack_require__(8873);function Z(e,t,r){return Z=X()?Reflect.construct.bind():function(e,t,r){var n=[null];n.push.apply(n,t);var i=new(Function.bind.apply(e,n));return r&&Q(i,r.prototype),i},Z.apply(null,arguments)}function X(){if("undefined"==typeof Reflect||!Reflect.construct)return!1;if(Reflect.construct.sham)return!1;if("function"==typeof Proxy)return!0;try{return Boolean.prototype.valueOf.call(Reflect.construct(Boolean,[],(function(){}))),!0}catch(e){return!1}}function Q(e,t){return Q=Object.setPrototypeOf?Object.setPrototypeOf.bind():function(e,t){return e.__proto__=t,e},Q(e,t)}var J,Y,K,$=Boolean(self.Worker),ee=Boolean(self.SharedWorker),te=Boolean(null==(H=self.navigator)?void 0:H.serviceWorker);function re(e,t){return re=Object.setPrototypeOf?Object.setPrototypeOf.bind():function(e,t){return e.__proto__=t,e},re(e,t)}var ne,ie,oe,ae=function(e){var t,r;function i(t,r){var n;return void 0===r&&(r={}),(n=e.call(this,t)||this).PfFeatStatusEnum=r,n.singleChecks(),(0,R.X)("record-supportability",(function(){var e;return(e=n).recordSupportability.apply(e,arguments)}),void 0,n.ee),(0,R.X)("record-custom",(function(){var e;return(e=n).recordCustom.apply(e,arguments)}),void 0,n.ee),n}r=e,(t=i).prototype=Object.create(r.prototype),t.prototype.constructor=t,re(t,r);var o=i.prototype;return o.recordSupportability=function(e,t){var r=["sm",e,{name:e},t];return(0,g.p)("storeMetric",r,null,void 0,this.ee),r},o.recordCustom=function(e,t){var r=["cm",e,{name:e},t];return(0,g.p)("storeEventMetrics",r,null,void 0,this.ee),r},o.singleChecks=function(){var e=this;this.recordSupportability("Generic/Version/"+U.q+"/Detected"),n.B&&u((function(){W().forEach((function(t){e.recordSupportability("Framework/"+t+"/Detected")}))})),z.T.isFileProtocol()&&(this.recordSupportability("Generic/FileProtocol/Detected"),z.T.supportabilityMetricSent=!0);var t=(0,V.$c)(this.agentIdentifier);t.length>0&&this.recordSupportability("Generic/Obfuscate/Detected"),t.length>0&&!(0,V.Ng)(t)&&this.recordSupportability("Generic/Obfuscate/Invalid"),n.B&&this.reportPolyfillsNeeded(),function(e){if(!J){if($){J=Worker;try{self.Worker=r(J,"Dedicated")}catch(e){a(e,"Dedicated")}if(ee){Y=SharedWorker;try{self.SharedWorker=r(Y,"Shared")}catch(e){a(e,"Shared")}}else i("Shared");if(te){K=navigator.serviceWorker.register;try{self.navigator.serviceWorker.register=(t=K,function(){for(var e,r=arguments.length,n=new Array(r),i=0;i<r;i++)n[i]=arguments[i];return o("Service",null==(e=n[1])?void 0:e.type),t.apply(navigator.serviceWorker,n)})}catch(e){a(e,"Service")}}else i("Service");var t;return}i("All")}function r(e,t){return new Proxy(e,{construct:function(e,r){var n;return o(t,null==(n=r[1])?void 0:n.type),Z(e,r)}})}function i(t){n.n2||e("Workers/"+t+"/Unavailable")}function o(t,r){e("module"===r?"Workers/"+t+"/Module":"Workers/"+t+"/Classic")}function a(t,r){e("Workers/"+r+"/SM/Unsupported"),console.warn("NR Agent: Unable to capture "+r+" workers.",t)}}(this.recordSupportability.bind(this))},o.reportPolyfillsNeeded=function(){this.recordSupportability("Generic/Polyfill/Promise/"+this.PfFeatStatusEnum.PROMISE),this.recordSupportability("Generic/Polyfill/ArrayIncludes/"+this.PfFeatStatusEnum.ARRAY_INCLUDES),this.recordSupportability("Generic/Polyfill/ObjectAssign/"+this.PfFeatStatusEnum.OBJECT_ASSIGN),this.recordSupportability("Generic/Polyfill/ObjectEntries/"+this.PfFeatStatusEnum.OBJECT_ENTRIES)},i}(x.W),ce=__webpack_require__(9011),ue=(0,e.n)();try{!function(){if(!m){var e=(0,h.gG)();n.n2&&(e.info.jsAttributes=Object.assign({},e.info.jsAttributes,{isWorker:!0}));try{(0,b.CX)(t.Z,e.info),(0,b.Dg)(t.Z,e.init),(0,b.GE)(t.Z,e.loader_config),(0,b.sU)(t.Z,{}),function(e){var t=(0,h.fP)(),r=s.ee.get(e),n=r.get("tracer"),i="api-",o="api-ixn-";function a(){}(0,y.D)(["setErrorHandler","finished","addToTrace","inlineHit","addRelease"],(function(e,r){t[r]=u(i,r,!0,"api")})),t.addPageAction=u(i,"addPageAction",!0),t.setCurrentRouteName=u(i,"routeName",!0),t.setPageViewName=function(t,r){if("string"==typeof t)return"/"!==t.charAt(0)&&(t="/"+t),(0,b.OP)(e).customTransaction=(r||"http://custom.transaction")+t,u(i,"setPageViewName",!0,"api")()},t.setCustomAttribute=function(t,r){var n,o=(0,b.C5)(e);return(0,b.CX)(e,Object.assign({},o,{jsAttributes:Object.assign({},o.jsAttributes,(n={},n[t]=r,n))})),u(i,"setCustomAttribute",!0,"api")()},t.interaction=function(){return(new a).get()};var c=a.prototype={createTracer:function(e,t){var i={},o=this,a="function"==typeof t;return(0,g.p)("api-ixn-tracer",[(0,w.zO)(),e,i],o,void 0,r),function(){if(n.emit((a?"":"no-")+"fn-start",[(0,w.zO)(),o,a],i),a)try{return t.apply(this,arguments)}catch(e){throw n.emit("fn-err",[arguments,this,"string"==typeof e?new Error(e):e],i),e}finally{n.emit("fn-end",[(0,w.zO)()],i)}}}};function u(e,t,n,i){return function(){return(0,g.p)("record-supportability",["API/"+t+"/called"],void 0,void 0,r),(0,g.p)(e+t,[(0,w.zO)()].concat(_()(arguments)),n?null:this,i,r),n?void 0:this}}(0,y.D)("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),(function(e,t){c[t]=u(o,t)})),t.noticeError=function(e,t){"string"==typeof e&&(e=new Error(e)),(0,g.p)("record-supportability",["API/noticeError/called"],void 0,void 0,r),(0,g.p)("err",[e,(0,w.zO)(),!1,t],void 0,void 0,r)}}(t.Z),m=!0}catch(e){}}}();var se=(0,ce.K)(t.Z);se.page_view_event&&new A(t.Z),se.page_view_timing&&new C(t.Z),se.metrics&&new ae(t.Z,ue),ne="lite",void 0===oe&&(oe=1e3),ie?setTimeout((function(){return p(ne)}),oe):n.B?c((function(){return p(ne)})):p(ne)}catch(e){var fe,le,de;null!=(fe=self)&&null!=(le=fe.newrelic)&&null!=(de=le.ee)&&de.abort&&self.newrelic.ee.abort()}}(),self.NRBA=__webpack_exports__})();
+//# sourceMappingURL=https://js-agent.newrelic.com/nr-loader-rum-1221.min.25fcbbf1.map</script>
+<link rel="icon" href="/themes/custom/finra_bootstrap_sass/favicon.ico" type="image/vnd.microsoft.icon" />
+
+    <title>Short Sale Volume Data | FINRA.org</title>
+    <link rel="stylesheet" media="all" href="/sites/default/files/css/css_8H6qTx9wQn0Bj2_ELx_fpMR1Gob2BR1uburjLtdtpHU.css" />
+<link rel="stylesheet" media="all" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" />
+<link rel="stylesheet" media="all" href="https://use.fontawesome.com/releases/v5.7.2/css/v4-shims.css" />
+<link rel="stylesheet" media="all" href="/sites/default/files/css/css_q5-T7JEckfo6VGs0fJG0LdTgbMnJLJFukZ9wCrSrbCE.css" />
+<link rel="stylesheet" media="all" href="/sites/default/files/css/css_ry3kZPWYAH-ShT--xA8Cm-ikbhboIiOykUgw5aeM1tg.css" />
+<link rel="stylesheet" media="all" href="//fonts.googleapis.com/css?family=Open+Sans" />
+<link rel="stylesheet" media="all" href="//fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" />
+<link rel="stylesheet" media="all" href="//use.typekit.net/nba4hvp.css" />
+<link rel="stylesheet" media="all" href="/sites/default/files/css/css_0l9ySWqZFCFkPxo3nbS0SiDit5vroSR5R1QV42HExGE.css" />
+
+    
+  </head>
+  <body class="layout-two-sidebars page-node-180586">
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PX5XDBN"
+                    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+        <a href="#main-content" class="visually-hidden focusable">
+      Skip to main content
+    </a>
+    
+      <div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas>
+    <div id="page-wrapper">
+  <div id="page">
+    
+            <header id="Finra_data_header" class="header">
+                  <div class="collapse" id="search-form">
+            <div class="header-form">
+              <div class="row">
+                <div class="col-lg-3">
+                    <section class="region region-header">
+          <a href="/" title="Home" rel="home" class="navbar-brand">
+              <img src="/themes/custom/finra_bootstrap_sass/images/FINRA_Logo_Web_Rev.png" alt="Home" class="img-fluid d-inline-block align-top" />
+            
+    </a>
+    
+  </section>
+
+                </div>
+                <div class="search search-close col d-flex justify-content-end">
+                  <button class="search-btn" type="button" data-toggle="collapse" data-target="#search-form" aria-expanded="false" aria-controls="search-form">
+                    <i class="fa fa-times fa-2x" aria-hidden="true"></i>
+                  </button>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col">
+                    <section class="region region-search">
+    
+<div id="search">
+<div  class="search-header-form block block-finra-solrsearch block-search-header-block" data-drupal-selector="search-header-form" id="block-searchheaderblock" data-block-plugin-id="search_header_block" >
+  
+    
+    <div class="finra-container">
+    <div  class="content">
+      
+<form action="/finra-data/browse-catalog/short-sale-volume-data" method="post" id="search-header-form" accept-charset="UTF-8">
+   
+ 
+ 
+
+
+
+  <fieldset class="js-form-item js-form-type-textfield form-type-textfield js-form-item-field-full-search-form form-item-field-full-search-form form-group">
+          
+                          <input placeholder="Search FINRA" name="field_full_search_form" data-drupal-selector="edit-field-full-search-form" type="text" id="edit-field-full-search-form" value="" size="70" maxlength="60" class="form-text form-control" />
+
+                          </fieldset>
+<input placeholder="Search FINRA" data-drupal-selector="edit-submit" type="submit" id="edit-submit" name="op" value="Search" class="button js-form-submit form-submit btn btn-primary form-control" data-drupal-states="{&quot;disabled&quot;:{&quot;:input[name=\u0022field_full_search_form\u0022]&quot;:{&quot;empty&quot;:true}}}" />
+
+<input autocomplete="off" data-drupal-selector="form-tj7ylrzhcpyu8h0kekwsq2oo6bbcvokoa8r8zo6y7yy" type="hidden" name="form_build_id" value="form-Tj7yLRzhCPYU8h0KEKwsQ2OO6bbcVoKoa8R8ZO6y7YY" class="form-control" />
+<input data-drupal-selector="edit-search-header-form" type="hidden" name="form_id" value="search_header_form" class="form-control" />
+
+</form>
+
+    </div>
+  </div>
+  </div>
+</div>
+
+  </section>
+
+                </div>
+              </div>
+              <div class="row">
+                <div class="col">
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="finra-container header-content">
+            <div class="navbar-dark row">
+              <div class="col-9 col-md-10 d-flex flex-row align-self-center">
+                <div class="header-icon header-text align-self-center">  <section class="region region-header">
+          <a href="/" title="Home" rel="home" class="navbar-brand">
+              <img src="/themes/custom/finra_bootstrap_sass/images/FINRA_Logo_Web_Rev.png" alt="Home" class="img-fluid d-inline-block align-top" />
+            
+    </a>
+    
+  </section>
+
+                  <div class="d-block d-sm-none header-title-mobile">
+                    <h1><a href="/data">DATA</a></h1>
+                  </div>
+                </div>
+                <div class="d-none d-md-block header-title align-self-center">
+                  <h1><a href="/data">DATA</a></h1>
+                </div>
+                <div class="d-none d-lg-block media-header-menu align-self-center col-10">
+                    <section class="row region region-media-center-header-menu">
+    <div id="block-finradatapagemenu" data-block-plugin-id="superfish:finra-data-page-menu" class="block block-superfish block-superfishfinra-data-page-menu">
+  
+    
+      <div class="content">
+      
+<ul id="superfish-finra-data-page-menu" class="menu sf-menu sf-finra-data-page-menu sf-horizontal sf-style-blue">
+  
+<li id="finra-data-page-menu-menu-link-contentce9106c5-84f3-4f36-85a6-f7882178786a" class="active-trail sf-depth-1 sf-no-children"><a href="/finra-data/browse-catalog" class="sf-depth-1">Browse</a></li><li id="finra-data-page-menu-menu-link-content56595c8b-5776-4336-b498-a10c7ede7019" class="sf-depth-1 menuparent"><a href="" class="sf-depth-1 menuparent">Tools</a><ul><li id="finra-data-page-menu-menu-link-content4d207dcc-7c7d-4f7d-ad09-d295d6b19404" class="sf-depth-2 sf-no-children"><a href="https://developer.finra.org/" class="sf-depth-2 sf-external">FINRA API Developer Center</a></li><li id="finra-data-page-menu-menu-link-contenta7b233cb-afc3-4df4-b40d-dfc7a35300c9" class="sf-depth-2 sf-no-children"><a href="/finra-data/how-to-work-with-finra-data" class="sf-depth-2">How to Work With FINRA Data</a></li><li id="finra-data-page-menu-menu-link-content4f25fb07-e621-4f60-b58b-652981a24247" class="sf-depth-2 sf-no-children"><a href="/filing-reporting/data-transfer-tools/fileX" class="sf-depth-2">Secure File Transfer (fileX)</a></li></ul></li>
+</ul>
+
+    </div>
+  </div>
+
+  </section>
+
+                </div>
+              </div>
+              <div class="col-1 align-self-center align-self-end header-icon header-search">
+                <div class="search-icon d-flex justify-content-end">
+                  <button class="search-btn" type="button" data-toggle="collapse" data-target="#search-form" aria-expanded="false" aria-controls="search-form">
+                    <i class="fa fa-search fa-2x" aria-hidden="true"></i>
+                  </button>
+                </div>
+              </div>
+              <div class="col-1 align-self-center align-self-end header-icon header-menu">
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#CollapsingMediaNavbar" aria-controls="CollapsingMediaNavbar" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+              </div>
+
+            </div>
+            <div class="header-menus col collapse" id="CollapsingMediaNavbar">
+              <div class="media_back_image">
+              </div>
+              <div class="header-icon header-menu align-self-center show-toggler">
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#CollapsingMediaNavbar" aria-controls="CollapsingMediaNavbar" aria-expanded="false" aria-label="Toggle navigation">
+                  <i class="fa fa-times fa-1x" aria-hidden="true"></i>
+                </button>
+
+              </div>
+              <div class="d-block d-sm-none header-title-mobile mc-sub-menu">
+                <h1><a href="/media-center">MEDIA CENTER</a></h1>
+              </div>
+              <div class="d-block d-lg-none media-center-sub-menu-mobile align-self-center">
+                  <section class="row region region-media-center-header-menu">
+    <div id="block-finradatapagemenu" data-block-plugin-id="superfish:finra-data-page-menu" class="block block-superfish block-superfishfinra-data-page-menu">
+  
+    
+      <div class="content">
+      
+<ul id="superfish-finra-data-page-menu" class="menu sf-menu sf-finra-data-page-menu sf-horizontal sf-style-blue">
+  
+<li id="finra-data-page-menu-menu-link-contentce9106c5-84f3-4f36-85a6-f7882178786a" class="active-trail sf-depth-1 sf-no-children"><a href="/finra-data/browse-catalog" class="sf-depth-1">Browse</a></li><li id="finra-data-page-menu-menu-link-content56595c8b-5776-4336-b498-a10c7ede7019" class="sf-depth-1 menuparent"><a href="" class="sf-depth-1 menuparent">Tools</a><ul><li id="finra-data-page-menu-menu-link-content4d207dcc-7c7d-4f7d-ad09-d295d6b19404" class="sf-depth-2 sf-no-children"><a href="https://developer.finra.org/" class="sf-depth-2 sf-external">FINRA API Developer Center</a></li><li id="finra-data-page-menu-menu-link-contenta7b233cb-afc3-4df4-b40d-dfc7a35300c9" class="sf-depth-2 sf-no-children"><a href="/finra-data/how-to-work-with-finra-data" class="sf-depth-2">How to Work With FINRA Data</a></li><li id="finra-data-page-menu-menu-link-content4f25fb07-e621-4f60-b58b-652981a24247" class="sf-depth-2 sf-no-children"><a href="/filing-reporting/data-transfer-tools/fileX" class="sf-depth-2">Secure File Transfer (fileX)</a></li></ul></li>
+</ul>
+
+    </div>
+  </div>
+
+  </section>
+
+              </div>
+                            <div class="secondary-header-row row justify-content-between">
+                <div class="secondary-menu col-lg-9">
+                    <section class="region region-secondary-menu">
+    <nav role="navigation" aria-labelledby="block-finrautilitymenu-menu" id="block-finrautilitymenu" data-block-plugin-id="system_menu_block:finra-utility-menu" class="block block-menu navigation menu--finra-utility-menu">
+            
+  <h2 class="sr-only" id="block-finrautilitymenu-menu">FINRA Utility Menu</h2>
+  
+
+                            <ul block="block-finrautilitymenu" class="clearfix nav navbar-nav">
+                    <li class="nav-item menu-item--collapsed">
+                        <a href="/about" class="nav-link" data-drupal-link-system-path="node/135106">About FINRA</a>
+              </li>
+                <li class="nav-item menu-item--collapsed">
+                        <a href="/careers" class="nav-link" data-drupal-link-system-path="node/135166">Careers</a>
+              </li>
+                <li class="nav-item">
+                        <a href="https://brokercheck.finra.org" class="nav-link">BrokerCheck</a>
+              </li>
+                <li class="nav-item menu-item--active-trail">
+                        <a href="/finra-data" class="nav-link active" data-drupal-link-system-path="node/180426">Data</a>
+              </li>
+                <li class="nav-item menu-item--collapsed">
+                        <a href="/media-center" class="nav-link" data-drupal-link-system-path="node/136031">Media Center</a>
+              </li>
+                <li class="nav-item">
+                        <a href="/contact-finra" class="nav-link" data-drupal-link-system-path="node/135416">Contact Us</a>
+              </li>
+        </ul>
+  
+
+
+  </nav>
+
+  </section>
+
+                </div>
+                <div class="top-header col-lg-2">
+                  
+                </div>
+
+              </div>
+                                          <div class="primary-header-row row justify-content-between">
+                <div class="primary-menu col-lg-11">
+                    <section class="region region-primary-menu">
+    <div id="block-finrahomepagenavwmegamenus" data-block-plugin-id="superfish:finra-homepage-nav-w-megame" class="block block-superfish block-superfishfinra-homepage-nav-w-megame">
+  
+    
+      <div class="content">
+      
+<ul id="superfish-finra-homepage-nav-w-megame" class="menu sf-menu sf-finra-homepage-nav-w-megame sf-horizontal sf-style-blue">
+  
+<li id="finra-homepage-nav-w-megame-menu-link-contentd364ff8f-3347-4ef3-8cb5-0f24583a410d" class="sf-depth-1 header menuparent"><a href="/rules-guidance" class="sf-depth-1 menuparent">Rules &amp; Guidance</a><ul class="sf-multicolumn"><li class="sf-multicolumn-wrapper "><ol><li id="finra-homepage-nav-w-megame-menu-link-contentc4fa03e6-c6a1-43a1-834a-240ef1b4fcb8" class="sf-depth-2 header sf-multicolumn-column menuparent"><div class="sf-multicolumn-column"><a href="/" class="sf-depth-2 menuparent">R&amp;G section 1</a><ol><li id="finra-homepage-nav-w-megame-menu-link-content0fd86390-2923-4574-8658-cb98ab5dd4b4" class="sf-depth-3 header menuparent"><a href="/rules-guidance/finra-manual" class="sf-depth-3 menuparent">FINRA Manual</a><ol><li id="finra-homepage-nav-w-megame-menu-link-contentc613f01b-6db6-4fbe-8a5d-c9388764ce7c" class="sf-depth-4 header sf-no-children"><a href="/rules-guidance/rulebooks/updates" class="sf-depth-4">Updates</a></li></ol></li><li id="finra-homepage-nav-w-megame-menu-link-contentdd19a09a-6c3c-43ef-a6dd-b62b599355fc" class="sf-depth-3 header menuparent"><a href="/rules-guidance/interpreting-rules" class="sf-depth-3 menuparent">Interpreting the Rules</a><ol><li id="finra-homepage-nav-w-megame-menu-link-contentbeb8e88e-19b6-4141-8119-ab161b29733f" class="sf-depth-4 header sf-no-children"><a href="/rules-guidance/notices" class="sf-depth-4">Notices</a></li><li id="finra-homepage-nav-w-megame-menu-link-content01bcde5a-18bd-49bc-ad8a-5030dfa32bce" class="sf-depth-4 header sf-no-children"><a href="/rules-guidance/guidance" class="sf-depth-4">Guidance</a></li><li id="finra-homepage-nav-w-megame-menu-link-contentbeaeaea8-a70b-4cd5-85e7-6f315919df94" class="sf-depth-4 header sf-no-children"><a href="/rules-guidance/guidance/faqs" class="sf-depth-4">Frequently Asked Questions</a></li><li id="finra-homepage-nav-w-megame-menu-link-contentbee8ddc9-8e5e-45fe-8124-1030d6f581fd" class="sf-depth-4 header sf-no-children"><a href="/rules-guidance/key-topics" class="sf-depth-4">Key Topics</a></li><li id="finra-homepage-nav-w-megame-menu-link-content35e5f001-c7fb-4fd8-8a91-cadf2e42c4c3" class="sf-depth-4 header sf-no-children"><a href="/rules-guidance/interpretive-questions" class="sf-depth-4">Interpretive Questions</a></li></ol></li></ol></div></li><li id="finra-homepage-nav-w-megame-menu-link-content34a6a839-8a25-4bca-ad8b-96dd506ae13b" class="sf-depth-2 header sf-multicolumn-column menuparent"><div class="sf-multicolumn-column"><a href="/" class="sf-depth-2 menuparent">R&amp;G section 2</a><ol><li id="finra-homepage-nav-w-megame-menu-link-content11a59f72-4eb5-40c9-9f12-0e4df107d32e" class="sf-depth-3 header menuparent"><a href="/rules-guidance/rulemaking-process" class="sf-depth-3 menuparent">The Rulemaking Process</a><ol><li id="finra-homepage-nav-w-megame-menu-link-content442f10f2-603f-48c1-8e88-dd7775df8358" class="sf-depth-4 header sf-no-children"><a href="/rules-guidance/rule-filings" class="sf-depth-4">Rule Filings</a></li><li id="finra-homepage-nav-w-megame-menu-link-contented33f23a-f1bf-4676-9ac1-bb6030d21da8" class="sf-depth-4 header sf-no-children"><a href="https://tools.finra.org/rule_filings/" class="sf-depth-4 sf-external">Rule Filing Status Report</a></li><li id="finra-homepage-nav-w-megame-menu-link-contenta34943b3-a2ae-4d0c-947a-69cb69f2b01c" class="sf-depth-4 header sf-no-children"><a href="/rules-guidance/requests-for-comments" class="sf-depth-4">Requests for Comments</a></li><li id="finra-homepage-nav-w-megame-menu-link-content30aadd78-ca2e-40ae-bced-a0ac2defb99f" class="sf-depth-4 header sf-no-children"><a href="/rules-guidance/rulebook-consolidation" class="sf-depth-4">Rulebook Consolidation</a></li></ol></li><li id="finra-homepage-nav-w-megame-menu-link-contentb0358eae-fb53-42df-afeb-1c5d10c4768f" class="sf-depth-3 header menuparent"><a href="/rules-guidance/adjudication-decisions" class="sf-depth-3 menuparent">Adjudication &amp; Decisions</a><ol><li id="finra-homepage-nav-w-megame-menu-link-content2a56bcb6-1f2b-46e0-a218-6e88266deb22" class="sf-depth-4 header sf-no-children"><a href="/rules-guidance/adjudication-decisions/national-adjudicatory-council-nac" class="sf-depth-4">National Adjudicatory Council (NAC)</a></li><li id="finra-homepage-nav-w-megame-menu-link-content3a218621-a4de-45c7-af83-444f7e057dfe" class="sf-depth-4 header sf-no-children"><a href="/rules-guidance/adjudication-decisions/office-hearing-officers-oho/about" class="sf-depth-4">Office of Hearing Officers (OHO)</a></li></ol></li></ol></div></li><li id="finra-homepage-nav-w-megame-menu-link-content0e906962-a50a-4493-b1b0-453314f45999" class="sf-depth-2 header sf-multicolumn-column menuparent"><div class="sf-multicolumn-column"><a href="/" class="sf-depth-2 menuparent">R&amp;G section 3</a><ol><li id="finra-homepage-nav-w-megame-menu-link-content8f3e31d0-75c8-4832-9462-15f4bb2b194a" class="sf-depth-3 header menuparent"><a href="/rules-guidance/enforcement" class="sf-depth-3 menuparent">Enforcement</a><ol><li id="finra-homepage-nav-w-megame-menu-link-content9aeb2774-cf45-4d9a-91a4-453f45d67c2e" class="sf-depth-4 header sf-no-children"><a href="/rules-guidance/oversight-enforcement/disciplinary-actions-online" class="sf-depth-4">Disciplinary Actions Online</a></li><li id="finra-homepage-nav-w-megame-menu-link-contentb29d8043-edf0-4cbf-b309-617895a7291b" class="sf-depth-4 header sf-no-children"><a href="/rules-guidance/oversight-enforcement/disciplinary-actions" class="sf-depth-4">Monthly Disciplinary Actions</a></li><li id="finra-homepage-nav-w-megame-menu-link-content0fc35c29-9b69-442e-a100-6f43dad32529" class="sf-depth-4 header sf-no-children"><a href="/rules-guidance/oversight-enforcement/sanction-guidelines" class="sf-depth-4">Sanction Guidelines</a></li><li id="finra-homepage-nav-w-megame-menu-link-content97dca4ad-2cc0-4d04-88e7-2f3f2fffc484" class="sf-depth-4 header sf-no-children"><a href="/rules-guidance/oversight-Oversight%20%26%20Enforcement/individuals-barred-finra" class="sf-depth-4">Individuals Barred by FINRA</a></li></ol></li></ol></div></li></ol></li></ul></li><li id="finra-homepage-nav-w-megame-menu-link-content6246d576-c6c4-40b2-bf29-c84cbcd6e5f6" class="sf-depth-1 header menuparent"><a href="/registration-exams-ce" class="sf-depth-1 menuparent">Registration, Exams &amp; CE</a><ul class="sf-multicolumn"><li class="sf-multicolumn-wrapper "><ol><li id="finra-homepage-nav-w-megame-menu-link-contente77a7ced-1006-4699-96fa-abba0b04ee92" class="sf-depth-2 header sf-multicolumn-column menuparent"><div class="sf-multicolumn-column"><a href="/" class="sf-depth-2 menuparent">Registration section 1</a><ol><li id="finra-homepage-nav-w-megame-menu-link-content7382dda4-d27f-4b09-a78b-345a21172d18" class="sf-depth-3 header menuparent"><a href="/registration-exams-ce/registration" class="sf-depth-3 menuparent">Registration</a><ol><li id="finra-homepage-nav-w-megame-menu-link-content559e0f15-30c4-444d-8d7f-8cf5d84f1398" class="sf-depth-4 header sf-no-children"><a href="/registration-exams-ce/broker-dealers" class="sf-depth-4">Broker Dealers</a></li><li id="finra-homepage-nav-w-megame-menu-link-content05b7a849-0aee-4e04-b48f-e342ab607ad1" class="sf-depth-4 header sf-no-children"><a href="/registration-exams-ce/capital-acquisition-brokers" class="sf-depth-4">Capital Acquisition Brokers</a></li><li id="finra-homepage-nav-w-megame-menu-link-contentead9f92a-652b-4ffe-845d-7a0e9cf19886" class="sf-depth-4 header sf-no-children"><a href="/registration-exams-ce/funding-portals" class="sf-depth-4">Funding Portals</a></li><li id="finra-homepage-nav-w-megame-menu-link-content014044e4-2881-4050-a49d-857a255fe0f1" class="sf-depth-4 header sf-no-children"><a href="/registration-exams-ce/individuals" class="sf-depth-4">Individuals</a></li></ol></li></ol></div></li><li id="finra-homepage-nav-w-megame-menu-link-content0bff760a-f8cf-424a-9ddf-28458084a738" class="sf-depth-2 header sf-multicolumn-column menuparent"><div class="sf-multicolumn-column"><a href="/" class="sf-depth-2 menuparent">Registration section 2</a><ol><li id="finra-homepage-nav-w-megame-menu-link-content1de7b82c-9510-4299-80fd-ffa92b653ff3" class="sf-depth-3 header menuparent"><a href="/registration-exams-ce/qualification-exams" class="sf-depth-3 menuparent">Qualification Exams</a><ol><li id="finra-homepage-nav-w-megame-menu-link-contentdff59b69-4368-4ef8-b3f6-73f837dc91f5" class="sf-depth-4 header sf-no-children"><a href="/registration-exams-ce/qualification-exams/securities-industry-essentials-exam-sie" class="sf-depth-4">Securities Industry Essentials Exam (SIE)</a></li><li id="finra-homepage-nav-w-megame-menu-link-contentf5cd72c5-e78f-4052-9227-e38de594970e" class="sf-depth-4 header sf-no-children"><a href="/registration-exams-ce/qualification-exams/series7" class="sf-depth-4">Series 7</a></li><li id="finra-homepage-nav-w-megame-menu-link-content9b809e13-52b4-4983-b0e4-573324627730" class="sf-depth-4 header sf-no-children"><a href="/registration-exams-ce/qualification-exams" class="sf-depth-4">All</a></li></ol></li><li id="finra-homepage-nav-w-megame-menu-link-content8d5e5890-9008-4538-9269-45e8f398f2f0" class="sf-depth-3 header sf-no-children"><a href="/registration-exams-ce/continuing-education" class="sf-depth-3">Continuing Education (CE)</a></li></ol></div></li><li id="finra-homepage-nav-w-megame-menu-link-contentb3ce66cb-c454-41ac-93e2-d06921ba2296" class="sf-depth-2 header sf-multicolumn-column menuparent"><div class="sf-multicolumn-column"><a href="/" class="sf-depth-2 menuparent">Registration section 3</a><ol><li id="finra-homepage-nav-w-megame-menu-link-contentca00e169-8f6d-44a6-bc51-fd004bcffb5e" class="sf-depth-3 header menuparent"><a href="/registration-exams-ce/classic-crd" class="sf-depth-3 menuparent">Registration Systems</a><ol><li id="finra-homepage-nav-w-megame-menu-link-contentf0c723f6-a484-40ca-8375-9da2ba562c82" class="sf-depth-4 header sf-no-children"><a href="/registration-exams-ce/classic-crd" class="sf-depth-4">Classic CRD</a></li><li id="finra-homepage-nav-w-megame-menu-link-contentfd9a7a60-cd6f-440b-a2bb-94d29db08ad7" class="sf-depth-4 header sf-no-children"><a href="/registration-exams-ce/finpro" class="sf-depth-4">Financial Professional Gateway (FinPro)</a></li><li id="finra-homepage-nav-w-megame-menu-link-contentaff7e918-f90b-47c8-b20a-c142d851eecd" class="sf-depth-4 header sf-no-children"><a href="/registration-exams-ce/financial-industry-networking-directory" class="sf-depth-4">Financial Industry Networking Directory (FIND)</a></li></ol></li></ol></div></li></ol></li></ul></li><li id="finra-homepage-nav-w-megame-menu-link-contentc91560c1-f78f-4fb8-93d3-0f765ae25c50" class="sf-depth-1 header menuparent"><a href="/events-training" class="sf-depth-1 menuparent">Events &amp; Training</a><ul class="sf-multicolumn"><li class="sf-multicolumn-wrapper "><ol><li id="finra-homepage-nav-w-megame-menu-link-content37c18b3c-b40d-4d0b-a35c-fd7b9cd7cfbc" class="sf-depth-2 header sf-no-children"><a href="/events-training/conferences-events" class="sf-depth-2">Conferences &amp; Events</a></li><li id="finra-homepage-nav-w-megame-menu-link-content41cf2d3f-45be-4a49-abe2-216c670c516d" class="sf-depth-2 header sf-no-children"><a href="/events-training/finra-georgetown" class="sf-depth-2">FINRA Institute at Georgetown</a></li><li id="finra-homepage-nav-w-megame-menu-link-content4c33f636-b82b-4da5-a1c0-5bd277c56159" class="sf-depth-2 header sf-no-children"><a href="/events-training/e-learning" class="sf-depth-2">E-Learning Courses</a></li><li id="finra-homepage-nav-w-megame-menu-link-contentb8a0bf3a-b109-46f7-a66b-686f755979ae" class="sf-depth-2 header sf-no-children"><a href="/compliance-tools/small-firms-information/small-firm-report" class="sf-depth-2">Small Firm Conference Call</a></li><li id="finra-homepage-nav-w-megame-menu-link-content7b841b12-80d6-4430-bb32-34aac7478a2c" class="sf-depth-2 header sf-no-children"><a href="/events-training/webinars" class="sf-depth-2">Webinars</a></li></ol></li></ul></li><li id="finra-homepage-nav-w-megame-menu-link-content6fd378b6-f9fa-4fb6-9a92-44a5b40a4654" class="sf-depth-1 header menuparent"><a href="/filing-reporting" class="sf-depth-1 menuparent">Filing &amp; Reporting</a><ul class="sf-multicolumn"><li class="sf-multicolumn-wrapper "><ol><li id="finra-homepage-nav-w-megame-menu-link-content45890a60-ffd0-408b-b688-d3cb5ea16c3b" class="sf-depth-2 header sf-no-children"><a href="/filing-reporting/finra-gateway" class="sf-depth-2">FINRA Gateway</a></li><li id="finra-homepage-nav-w-megame-menu-link-content21f011a3-a49b-4e36-b98a-39edd774f30d" class="sf-depth-2 header sf-no-children"><a href="/filing-reporting/systems-status" class="sf-depth-2">Systems Status</a></li><li id="finra-homepage-nav-w-megame-menu-link-content218fb59a-ab2d-4154-9e5e-bb92cc9bc1bb" class="sf-depth-2 header sf-no-children"><a href="/filing-reporting/finra-entitlement-program" class="sf-depth-2">Entitlement Program</a></li><li id="finra-homepage-nav-w-megame-menu-link-contentbae311ee-22aa-495b-b1e4-08103bff186c" class="sf-depth-2 header sf-no-children"><a href="/filing-reporting/market-transparency-reporting" class="sf-depth-2">Market Transparency Reporting Tools</a></li><li id="finra-homepage-nav-w-megame-menu-link-contentfe09146b-9227-43ad-8c9d-90f2fdbf9abb" class="sf-depth-2 header sf-no-children"><a href="/filing-reporting/regulatory-filing-systems" class="sf-depth-2">Regulatory Filing Systems</a></li><li id="finra-homepage-nav-w-megame-menu-link-content511e4ed3-fbd4-4e2c-b021-233e34a30d7f" class="sf-depth-2 header sf-no-children"><a href="/filing-reporting/data-transfer-tools" class="sf-depth-2">Data Transfer Tools</a></li><li id="finra-homepage-nav-w-megame-menu-link-contentf50e0e83-fb3a-4267-afb0-26381a1b6548" class="sf-depth-2 header sf-no-children"><a href="/filing-reporting/e-bill" class="sf-depth-2">E-Bill</a></li></ol></li></ul></li><li id="finra-homepage-nav-w-megame-menu-link-content858bee61-be4f-4019-9504-8f52219e46c2" class="sf-depth-1 header menuparent"><a href="/compliance-tools" class="sf-depth-1 menuparent">Compliance Tools</a><ul class="sf-multicolumn"><li class="sf-multicolumn-wrapper "><ol><li id="finra-homepage-nav-w-megame-menu-link-contentd9aba95e-f14e-492f-a311-b1deb2d641a4" class="sf-depth-2 header sf-no-children"><a href="/compliance-tools/cybersecurity-checklist" class="sf-depth-2">Cybersecurity Checklist</a></li><li id="finra-homepage-nav-w-megame-menu-link-contente8f6a8d2-5339-434b-bf53-454414f1bd22" class="sf-depth-2 header sf-no-children"><a href="/compliance-tools/compliance-calendar" class="sf-depth-2">Compliance Calendar</a></li><li id="finra-homepage-nav-w-megame-menu-link-content909b0c56-9c3f-45f5-a5c7-1fb357836217" class="sf-depth-2 header sf-no-children"><a href="/compliance-tools/weekly-archive" class="sf-depth-2">Weekly Update Email Archive</a></li><li id="finra-homepage-nav-w-megame-menu-link-content70bf8471-d3be-4434-89ad-6a7dad2f03ed" class="sf-depth-2 header sf-no-children"><a href="/compliance-tools/peer-2-peer-compliance-library" class="sf-depth-2">Peer-2-Peer Compliance Library</a></li><li id="finra-homepage-nav-w-megame-menu-link-contenta11a1eb4-fdc8-42d3-8871-b29e49b4bfca" class="sf-depth-2 header sf-no-children"><a href="/compliance-tools/compliance-vendor-directory" class="sf-depth-2">Compliance Vendor Directory</a></li></ol></li></ul></li><li id="finra-homepage-nav-w-megame-menu-link-content166813ea-e8cf-4186-afde-ac390338cb34" class="sf-depth-1 header menuparent"><a href="/investors" class="sf-depth-1 menuparent">For Investors</a><ul class="sf-multicolumn"><li class="sf-multicolumn-wrapper "><ol><li id="finra-homepage-nav-w-megame-menu-link-content487f0260-89ef-4669-b813-59783f448eaa" class="sf-depth-2 header sf-multicolumn-column menuparent"><div class="sf-multicolumn-column"><a href="/" class="sf-depth-2 menuparent">For Investors section 1</a><ol><li id="finra-homepage-nav-w-megame-menu-link-content9e05d85c-ba77-4f30-aa90-316e5e9b0efa" class="sf-depth-3 header sf-no-children"><a href="/investors/insights" class="sf-depth-3">Investor Insights</a></li><li id="finra-homepage-nav-w-megame-menu-link-contenta6e7f364-bb67-445e-83fe-54502c0be137" class="sf-depth-3 header sf-no-children"><a href="/investors/tools-and-calculators" class="sf-depth-3">Tools &amp;  Calculators</a></li><li id="finra-homepage-nav-w-megame-menu-link-contentf9937aef-c2c0-43d0-a37d-80488ce689c4" class="sf-depth-3 header menuparent"><a href="/investors/personal-finance" class="sf-depth-3 menuparent">Personal Finance</a><ol><li id="finra-homepage-nav-w-megame-menu-link-content83d34336-47b1-4f04-84c5-03cefb7fa147" class="sf-depth-4 header sf-no-children"><a href="/investors/personal-finance/know-your-net-worth" class="sf-depth-4">Net Worth</a></li><li id="finra-homepage-nav-w-megame-menu-link-content2371ce1f-76a9-4c3a-8a95-88cfb92b21e6" class="sf-depth-4 header sf-no-children"><a href="/investors/personal-finance/control-spending-calculate-cash-flow" class="sf-depth-4">Spending</a></li><li id="finra-homepage-nav-w-megame-menu-link-content856bce8a-cc2f-4005-ac23-abf88f872d7e" class="sf-depth-4 header sf-no-children"><a href="/investors/personal-finance/manage-your-debt" class="sf-depth-4">Debt</a></li><li id="finra-homepage-nav-w-megame-menu-link-content8cb9e94d-70e5-48e3-b783-ae5634593e61" class="sf-depth-4 header sf-no-children"><a href="/investors/personal-finance/how-your-credit-score-impacts-your-financial-future" class="sf-depth-4">Credit Scores</a></li><li id="finra-homepage-nav-w-megame-menu-link-contentfff13254-0dcc-4378-b052-07a9b69207b2" class="sf-depth-4 header sf-no-children"><a href="/investors/personal-finance/start-emergency-fund" class="sf-depth-4">Emergency Funds</a></li></ol></li></ol></div></li><li id="finra-homepage-nav-w-megame-menu-link-contentaf157c60-828d-48e7-93ee-a7b4928ef97d" class="sf-depth-2 header sf-multicolumn-column menuparent"><div class="sf-multicolumn-column"><a href="/" class="sf-depth-2 menuparent">For Investors section 2</a><ol><li id="finra-homepage-nav-w-megame-menu-link-content2e8dfc43-425a-47fd-a396-a314b4162d8c" class="sf-depth-3 header menuparent"><a href="/investors/investing" class="sf-depth-3 menuparent">Investing</a><ol><li id="finra-homepage-nav-w-megame-menu-link-contentd4b68f33-9492-4aac-9d63-58cd4837b056" class="sf-depth-4 header sf-no-children"><a href="/investors/investing/investing-basics" class="sf-depth-4">Investing Basics</a></li><li id="finra-homepage-nav-w-megame-menu-link-contentd425e117-c250-4426-a888-624435dfb67f" class="sf-depth-4 header sf-no-children"><a href="/investors/investing/investment-products" class="sf-depth-4">Investment Products</a></li><li id="finra-homepage-nav-w-megame-menu-link-contenta1f7670e-3ed2-46ce-b3ba-40dcb3c0a720" class="sf-depth-4 header sf-no-children"><a href="/investors/investing/investment-accounts" class="sf-depth-4">Investment Accounts</a></li><li id="finra-homepage-nav-w-megame-menu-link-contentca5c7515-66c6-4123-9451-e166619b6aac" class="sf-depth-4 header sf-no-children"><a href="/investors/learn-to-invest/choosing-investment-professional" class="sf-depth-4">Choosing an Investment Professional</a></li></ol></li><li id="finra-homepage-nav-w-megame-menu-link-content7f700e32-3172-4bda-a1cb-30dc3474d8b7" class="sf-depth-3 header menuparent"><a href="/investors/protect-your-money" class="sf-depth-3 menuparent">Protect Your Money</a><ol><li id="finra-homepage-nav-w-megame-menu-link-content592dcde4-0665-44cd-807f-513d52fafa2c" class="sf-depth-4 header sf-no-children"><a href="/investors/alerts" class="sf-depth-4">Investor Alerts</a></li><li id="finra-homepage-nav-w-megame-menu-link-content1309983b-3f28-4963-a62d-0480a05bc438" class="sf-depth-4 header sf-no-children"><a href="/investors/protect-your-money/ask-and-check" class="sf-depth-4">Ask and Check</a></li><li id="finra-homepage-nav-w-megame-menu-link-content7182170a-17a2-460a-a0ed-58558026b7b5" class="sf-depth-4 header sf-no-children"><a href="/investors/protect-your-money/avoid-fraud" class="sf-depth-4">Avoid Fraud</a></li><li id="finra-homepage-nav-w-megame-menu-link-content22335996-9b97-4987-a258-9236142677ea" class="sf-depth-4 header sf-no-children"><a href="/investors/protect-your-money/protect-your-identity" class="sf-depth-4">Protect Your Identity</a></li></ol></li></ol></div></li><li id="finra-homepage-nav-w-megame-menu-link-content91b356cf-c2a8-4b63-88f6-ce00da02e866" class="sf-depth-2 header sf-multicolumn-column menuparent"><div class="sf-multicolumn-column"><a href="/" class="sf-depth-2 menuparent">For Investors section 3</a><ol><li id="finra-homepage-nav-w-megame-menu-link-content656f6e75-f758-4c1c-ac55-d9f400c6fe01" class="sf-depth-3 header sf-no-children"><a href="/investors/military" class="sf-depth-3">For the Military</a></li><li id="finra-homepage-nav-w-megame-menu-link-content41b96366-28ff-43a8-ad5e-ed305e7d67a0" class="sf-depth-3 header menuparent"><a href="/investors/need-help" class="sf-depth-3 menuparent">Need Help?</a><ol><li id="finra-homepage-nav-w-megame-menu-link-content6aea10f3-7921-43a1-bca4-370eaa5595dc" class="sf-depth-4 header sf-no-children"><a href="/investors/need-help/file-a-complaint" class="sf-depth-4">File a Complaint</a></li><li id="finra-homepage-nav-w-megame-menu-link-content6c615aeb-1710-4594-8190-4d5d09ae271b" class="sf-depth-4 header sf-no-children"><a href="/investors/need-help/helpline-seniors" class="sf-depth-4">FINRA Securities Helpline for Seniors</a></li><li id="finra-homepage-nav-w-megame-menu-link-contentd7c8214d-622b-4b84-bfba-2f0fe1d517d2" class="sf-depth-4 header sf-no-children"><a href="/arbitration-mediation" class="sf-depth-4">Dispute Resolution</a></li><li id="finra-homepage-nav-w-megame-menu-link-contentafbe1bce-eecb-4015-8fe3-17b74146838c" class="sf-depth-4 header sf-no-children"><a href="/investors/need-help/your-rights-under-sipc-protection" class="sf-depth-4">SIPC Protection</a></li><li id="finra-homepage-nav-w-megame-menu-link-content2fec964a-fdd3-4807-843a-c00167921c04" class="sf-depth-4 header sf-no-children"><a href="/investors/need-help/legitimate-avenues-recovery-investment-losses" class="sf-depth-4">Avenues for Recovery of Losses</a></li></ol></li></ol></div></li></ol></li></ul></li>
+</ul>
+
+    </div>
+  </div>
+
+  </section>
+
+                </div>
+              </div>
+                            <div class="top-header-form-media-center">
+                  <section class="region region-top-header-form">
+    <div id="block-loginoverlay" data-block-plugin-id="block_content:c518cdf2-f12b-4b79-971f-bc2ff7b602d5" class="block block-block-content block-block-contentc518cdf2-f12b-4b79-971f-bc2ff7b602d5">
+  
+    
+      <div class="content">
+      
+            <div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><div aria-controls="loginCollapse" aria-expanded="false" class="test" data-toggle="collapse" href="#loginCollapse" id="login-icon" role="button">
+<p>Log In</p>
+</div>
+
+<div class="collapse" id="loginCollapse">
+<div class="login-responsive"><i class="fas fa-times" data-target="#loginCollapse" data-toggle="collapse"></i></div>
+
+<div class="login-row" layout="row">
+<div class="login-col" layout="col">
+<p class="login-title"><a href="https://finpro.finra.org/">FinPro</a></p>
+
+<p class="login-subtitle">For Industry Professionals</p>
+
+<p class="login-desc">Registered representatives can fulfill Continuing Education requirements, view their industry CRD record and perform other compliance tasks.</p>
+
+<div class="login-btn" style="padding: 8px 0px 8px 0px;"><a href="https://finpro.finra.org/" style="padding: 12px 46px 12px 46px;"><span>LOG IN</span> </a></div>
+</div>
+
+<div class="login-col" layout="col">
+<p class="login-title"><a href="https://gateway.finra.org/">FINRA Gateway</a></p>
+
+<p class="login-subtitle">For Member Firms</p>
+
+<p class="login-desc">Firm compliance professionals can access filings and requests, run reports and submit support tickets.</p>
+
+<div class="login-btn" style="padding: 8px 0px 8px 0px;"><a href="https://gateway.finra.org/" style="padding: 12px 46px 12px 46px;"><span>LOG IN</span> </a></div>
+</div>
+
+<div class="login-col" layout="col">
+<p class="login-title"><a href="https://drportal.finra.org/">DR Portal</a></p>
+
+<p class="login-subtitle">For Case Participants</p>
+
+<p class="login-desc">Arbitration and mediation case participants and FINRA neutrals can view case information and submit documents through this Dispute Resolution Portal.</p>
+
+<div class="login-btn" style="padding: 8px 0px 8px 0px;"><a href="https://drportal.finra.org/" style="padding: 12px 46px 12px 46px;"><span>LOG IN</span> </a></div>
+</div>
+</div>
+
+<div class="login-fourth">
+<p class="need-help"><a href="/contact-finra">Need Help?</a> | <a href="/systems-status/">Check Systems Status</a></p>
+
+<p class="other-systems"><a href="/filing-reporting/entitlement/systems">Log In to other FINRA systems</a></p>
+</div>
+</div>
+</div>
+      
+    </div>
+  </div>
+
+  </section>
+
+              </div>
+            </div>
+            <div class="row">
+              <div class="col">
+                  <section class="offset-lg-3 region region-primary-title">
+    
+  </section>
+
+              </div>
+            </div>
+          </div>
+              </header>
+        
+    
+    
+    <div id="main-wrapper" class="layout-main-wrapper clearfix">
+              <div id="main" class="container-fluid finra-container">
+          
+  <section class="row">
+    <div class="col-lg-7 specific-crumbs region region-breadcrumb">
+      <div id="block-finra-bootstrap-sass-breadcrumbs" data-block-plugin-id="system_breadcrumb_block" class="breadcrumbs__container">
+  
+    
+      
+
+  <nav role="navigation" aria-label="breadcrumb">
+    <ol class="breadcrumb">
+                  <li class="breadcrumb-item">
+          <a href="/finra-data">FINRA Data</a>
+        </li>
+                        <li class="breadcrumb-item">
+          <a href="/finra-data/browse-catalog">Browse Data Catalog</a>
+        </li>
+              </ol>
+  </nav>
+
+  </div>
+
+    </div>
+  </section>
+
+          <div class="row row-offcanvas row-offcanvas-left clearfix">
+                          <div class="sidebar col-lg-3 finra-sidebar-first menu-top" id="sidebar_first">
+                <aside class="section menu-sticky" role="complementary">
+
+
+                                           <div class="layout--left-nav">
+                        <div onclick="this.classList.toggle('active')" class="d-sm-block d-lg-none left-nav-toggle arrow-down" data-toggle="collapse" data-target=".layout-collapse">
+                          EXPLORE THIS SECTION
+                        </div>
+                        <div class="left-nav-collapse collapse layout-collapse">
+                          
+                        </div>
+                      </div>
+                     
+                </aside>
+              </div>
+            
+              <main  class="main-content col" id="content" role="main">
+                <section class="section">
+                  <a id="main-content" tabindex="-1"></a>
+                    <div id="block-finra-bootstrap-sass-system-main" data-block-plugin-id="system_main_block" class="block block-system block-system-main-block">
+  
+    
+      <div class="content">
+      <article class="node node--type-article node--view-mode-full clearfix node--promoted">
+  
+    
+
+  <div>
+      <div class="layout layout--twocol-bricks">
+          <div class="row">
+        <div  class="layout__region layout__region--top col-md-12">
+          <div class="block-region-top"><div data-block-plugin-id="entity_field:node:title" class="block block-ctools-block block-entity-fieldnodetitle">
+  
+    
+      <div class="content">
+      <span class="field field--name-title field--type-string field--label-hidden"><h1>Short Sale Volume Data</h1></span>
+
+    </div>
+  </div>
+</div>
+        </div>
+      </div>
+    
+    <div class="finra-container">
+      <div class="row">
+        
+              </div>
+    </div>
+
+    <div class="finra-container">
+      <div class="row">
+        
+        
+              </div>
+    </div>
+
+    
+      <div class="row">
+        <div  class="layout__region layout__region--middle col-md-12">
+          <div class="block-region-middle"><div data-block-plugin-id="entity_field:node:body" class="block block-ctools-block block-entity-fieldnodebody">
+  
+    
+      <div class="content">
+      
+            <div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><p>The last 365 days of Short Sale Volume data is available in interactive grid below. For data beyond 365 days, you can download a <a href="/finra-data/browse-catalog/short-sale-volume-data/daily-short-sale-volume-files">Daily Short Sale Transaction File</a>, a <a href="/finra-data/browse-catalog/short-sale-volume-data/monthly-short-sale-volume-files">Monthly Short Sale Volume File</a>, or use our <a href="https://developer.finra.org">Query API</a>.</p>
+
+<p class="more-link"><a href="/finra-data/browse-catalog/short-sale-volume">About Short Sale Volume Data</a></p>
+</div>
+      
+    </div>
+  </div>
+</div>
+        </div>
+      </div>
+
+    
+    <div class="finra-container">
+      <div class="row">
+        
+        
+              </div>
+    </div>
+
+    <div class="finra-container">
+      <div class="row">
+        
+              </div>
+    </div>
+
+          <div class="row">
+        <div  class="layout__region layout__region--bottom col-md-12">
+          <div class="block-region-bottom"></div>
+        </div>
+      </div>
+      </div>
+
+  </div>
+</article>
+
+    </div>
+  </div>
+
+
+                </section>
+              </main>
+
+                          <div class="sidebar col-lg-2 finra-sidebar-second">
+                <aside class="section" role="complementary">
+                    <section class="layout--right-nav region region-sidebar-second">
+    <div id="block-rightsidebarsociallinks" data-block-plugin-id="block_content:beb0252e-c591-4394-942b-6abd381a5dc7" class="block block-block-content block-block-contentbeb0252e-c591-4394-942b-6abd381a5dc7">
+  
+    
+      <div class="content">
+      
+            <div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><p><a href="https://www.twitter.com/finra"><span class="fontawesome-icon-inline"><span class="fa-2x fa-twitter fab right-sidebar-social-links"> </span> </span></a> <a href="https://www.linkedin.com/company/finra/"><span class="fontawesome-icon-inline"><span class="fa-2x fa-linkedin fab right-sidebar-social-links"> </span> </span></a> <a href="https://www.facebook.com/FinancialIndustryRegulatoryAuthority/"><span class="fontawesome-icon-inline"><span class="fa-2x fa-facebook fab right-sidebar-social-links"> </span> </span></a> <a href="https://tools.finra.org/email_subscriptions/?lists=prof"><span class="fontawesome-icon-inline"><span class="fa-2x fa-envelope far right-sidebar-social-links"> </span> </span></a></p>
+
+<p><a href="/newsroom/follow-finra"><span class="fontawesome-icon-inline"><span class="fa-2x fa-rss fas right-sidebar-social-links"> </span>  <span class="social-links-text">Subscribe to Updates</span></span></a></p>
+</div>
+      
+    </div>
+  </div>
+<div id="block-markettransparencyapibutton" data-block-plugin-id="block_content:891b9325-c6ee-4758-b53e-9b73f459e607" class="block block-block-content block-block-content891b9325-c6ee-4758-b53e-9b73f459e607">
+  
+    
+      <div class="content">
+      
+            <div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><p><a class="btn btn-danger ga-event ga-event-custom" data-ga-action="button" data-ga-category="right rail" data-ga-label="Equity API" href="https://developer.finra.org/products/market-transparency" style="width:100%;" target="_blank">Equity API</a></p>
+</div>
+      
+    </div>
+  </div>
+
+  </section>
+
+                </aside>
+              </div>
+            
+          </div>
+        </div>
+          </div>
+
+    
+    <div id = "article-columns" class="adjustable-columns">
+              <div class="full-width finra-container">
+            <section class="row region region-full-width">
+    <div id="block-fullwidthcolumn" data-block-plugin-id="entity_field:node:field_full_width_column" class="block block-ctools-block block-entity-fieldnodefield-full-width-column">
+  
+    
+      <div class="content">
+      
+      <div class="field field--name-field-full-width-column field--type-entity-reference-revisions field--label-hidden field__items">
+              <div class="field__item">
+
+
+  <div class="paragraph paragraph--type--finra-dynamic-reporting-explorer paragraph--view-mode--default">
+          <div id="template-ghdabf3f-53dr-4fb7-a059-8ca3ca173ab1">
+      </div>
+      </div>
+</div>
+          </div>
+  
+    </div>
+  </div>
+
+  </section>
+
+        </div>
+                                </div>
+    <footer id="FINRA_footer" class="site-footer">
+              <div class="container-fluid">
+                    <div class="finra-container">
+            <div class ="row">
+               <section class="col col-4 region region-footer-first">
+          <a href="/" title="Home" rel="home" class="navbar-brand">
+              <img src="/themes/custom/finra_bootstrap_sass/images/FINRA_Logo_Web_Rev.png" alt="Home" class="img-fluid d-inline-block align-top" />
+            
+    </a>
+    <nav role="navigation" aria-labelledby="block-finramainnavigation-3-menu" id="block-finramainnavigation-3" data-block-plugin-id="system_menu_block:finra-main-navigation" class="block block-menu navigation menu--finra-main-navigation">
+            
+  <h2 class="sr-only" id="block-finramainnavigation-3-menu">FINRA Main Navigation</h2>
+  
+
+                            <ul block="block-finramainnavigation-3" class="clearfix nav navbar-nav">
+                    <li class="nav-item menu-item--collapsed">
+                        <a href="/rules-guidance" class="nav-link" data-drupal-link-system-path="node/105256">Rules &amp; Guidance</a>
+              </li>
+                <li class="nav-item menu-item--collapsed">
+                        <a href="/registration-exams-ce" class="nav-link" data-drupal-link-system-path="node/126826">Registration, Exams &amp; CE</a>
+              </li>
+                <li class="nav-item menu-item--collapsed">
+                        <a href="/events-training" class="nav-link" data-drupal-link-system-path="node/105306">Events &amp; Training</a>
+              </li>
+                <li class="nav-item menu-item--collapsed">
+                        <a href="/filing-reporting" class="nav-link" data-drupal-link-system-path="node/135036">Filing &amp; Reporting</a>
+              </li>
+                <li class="nav-item menu-item--collapsed">
+                        <a href="/compliance-tools" class="nav-link" data-drupal-link-system-path="node/136611">Compliance Tools</a>
+              </li>
+                <li class="nav-item menu-item--collapsed">
+                        <a href="/investors" class="nav-link" data-drupal-link-system-path="node/126766">For Investors</a>
+              </li>
+        </ul>
+  
+
+
+  </nav>
+<nav role="navigation" aria-labelledby="block-finrautilitymenu-2-menu" id="block-finrautilitymenu-2" data-block-plugin-id="system_menu_block:finra-utility-menu" class="block block-menu navigation menu--finra-utility-menu">
+            
+  <h2 class="sr-only" id="block-finrautilitymenu-2-menu">FINRA Utility Menu</h2>
+  
+
+                            <ul block="block-finrautilitymenu-2" class="clearfix nav navbar-nav">
+                    <li class="nav-item menu-item--collapsed">
+                        <a href="/about" class="nav-link" data-drupal-link-system-path="node/135106">About FINRA</a>
+              </li>
+                <li class="nav-item menu-item--collapsed">
+                        <a href="/careers" class="nav-link" data-drupal-link-system-path="node/135166">Careers</a>
+              </li>
+                <li class="nav-item">
+                        <a href="https://brokercheck.finra.org" class="nav-link">BrokerCheck</a>
+              </li>
+                <li class="nav-item menu-item--active-trail">
+                        <a href="/finra-data" class="nav-link active" data-drupal-link-system-path="node/180426">Data</a>
+              </li>
+                <li class="nav-item menu-item--collapsed">
+                        <a href="/media-center" class="nav-link" data-drupal-link-system-path="node/136031">Media Center</a>
+              </li>
+                <li class="nav-item">
+                        <a href="/contact-finra" class="nav-link" data-drupal-link-system-path="node/135416">Contact Us</a>
+              </li>
+        </ul>
+  
+
+
+  </nav>
+
+  </section>
+
+             <div class="col-lg-8 col-md-6 finra-contacts">
+               <div class="row">
+                   <section class="row region region-footer-highlight">
+    <div id="block-footerhighlight" data-block-plugin-id="block_content:13129ca4-9a12-445a-8240-396c465d4de4" class="block block-block-content block-block-content13129ca4-9a12-445a-8240-396c465d4de4">
+  
+    
+      <div class="content">
+      
+            <div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><div>
+<div class="highlight-text">
+<p><a class="footer-link" href="/arbitration-mediation">ARBITRATION &amp; MEDIATION</a></p>
+<span>FINRA operates the largest securities dispute resolution forum in the United States</span></div>
+
+<div class="btn learn-more-btn"><a class="footer-link" href="/arbitration-mediation"><span>Learn More</span></a></div>
+</div>
+</div>
+      
+    </div>
+  </div>
+
+  </section>
+
+               </div>
+               <div class="row">
+                   <section class="col-lg-5 col-md-12 col-sm-12 region region-footer-second">
+    <div id="block-footercontacts1" data-block-plugin-id="block_content:c0b288c4-fa43-4f28-869e-1e7dbba541f9" class="block block-block-content block-block-contentc0b288c4-fa43-4f28-869e-1e7dbba541f9">
+  
+    
+      <div class="content">
+      
+            <div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><div>
+<p><a class="footer-link" href="/contact-finra/">General Inquiries</a></p>
+<span>301-590-6500</span></div>
+
+<div>
+<p><a class="footer-link" href="/investors/have-a-problem/helpline-seniors">Securities Helpline for Seniors<sup>®</sup></a></p>
+<span>844-574-3577 (Mon-Fri 9am-5pm ET)</span></div>
+
+<div>
+<p><a class="footer-link" href="/contact-finra/file-tip">File a Regulatory Tip</a></p>
+<span>To report on abuse or fraud in the industry</span></div>
+</div>
+      
+    </div>
+  </div>
+
+  </section>
+
+                   <section class="col-lg-5 col-md-12 col-sm-12 region region-footer-third">
+    <div id="block-footercontacts2" data-block-plugin-id="block_content:0d011e02-69eb-47fd-994a-587fbeb7b81e" class="block block-block-content block-block-content0d011e02-69eb-47fd-994a-587fbeb7b81e">
+  
+    
+      <div class="content">
+      
+            <div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><div>
+<p><a class="footer-link" href="/investors/need-help/file-a-complaint">File an Investor Complaint</a></p>
+<span>File a complaint about fraud or unfair practices.</span></div>
+
+<div>
+<p><a class="footer-link" href="/compliance-tools/finra-small-firm-helpline">Small Firm Help Line</a></p>
+<span>833-26-FINRA (Mon-Fri 9am-6pm ET)</span></div>
+
+<div>
+<p><a class="footer-link" href="/about/office-ombudsman">Office of the Ombudsman</a></p>
+<span>Report a concern about FINRA at 888-700-0028</span></div>
+</div>
+      
+    </div>
+  </div>
+
+  </section>
+
+               </div>
+               <div class="row finra-legal">
+                   <section class="col-lg-5 col-md-12 col-sm-12 region region-footer-fourth">
+    <nav role="navigation" aria-labelledby="block-footerlegallinks-menu" id="block-footerlegallinks" data-block-plugin-id="system_menu_block:footer-legal-links" class="block block-menu navigation menu--footer-legal-links">
+            
+  <h2 class="sr-only" id="block-footerlegallinks-menu">Footer Legal Links</h2>
+  
+
+                            <ul block="block-footerlegallinks" class="clearfix nav navbar-nav">
+                    <li class="nav-item">
+                        <a href="/site-map" class="nav-link" data-drupal-link-system-path="node/139246">Site Map</a>
+              </li>
+                <li class="nav-item">
+                        <a href="/privacy-policy" class="nav-link" data-drupal-link-system-path="node/135876">Privacy Policy</a>
+              </li>
+                <li class="nav-item">
+                        <a href="/terms-of-use" class="nav-link" data-drupal-link-system-path="node/139951">Terms of Use</a>
+              </li>
+        </ul>
+  
+
+
+  </nav>
+
+  </section>
+
+                   <section class="row col-lg-5 col-md-12 col-sm-12 region region-footer-fifth">
+    <nav role="navigation" aria-labelledby="block-footerlegal2-menu" id="block-footerlegal2" data-block-plugin-id="system_menu_block:footer-legal-2" class="block block-menu navigation menu--footer-legal-2">
+            
+  <h2 class="sr-only" id="block-footerlegal2-menu">Footer Legal 2</h2>
+  
+
+                            <ul block="block-footerlegal2" class="clearfix nav navbar-nav">
+                    <li class="nav-item">
+                        <a href="/contact-finra" class="nav-link" data-drupal-link-system-path="node/135416">Contact</a>
+              </li>
+        </ul>
+  
+
+
+  </nav>
+<div id="block-footerphonenumber" data-block-plugin-id="block_content:98025dd1-8f22-479c-b7c7-74a09ba63883" class="block block-block-content block-block-content98025dd1-8f22-479c-b7c7-74a09ba63883">
+  
+    
+      <div class="content">
+      
+    </div>
+  </div>
+
+  </section>
+
+               </div>
+               <div class="row">
+                   <section class="col-lg-5 order-lg-12 order-md-1 order-sm region region-footer-sixth">
+    <div id="block-finrasociallinks" data-block-plugin-id="block_content:79395185-afca-4832-b562-50b574a57497" class="block block-block-content block-block-content79395185-afca-4832-b562-50b574a57497">
+  
+    
+      <div class="content">
+      
+            <div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><p><a href="https://www.twitter.com/finra"><span class="fontawesome-icon-inline"><span class="fa-2x fa-inverse fa-twitter fab"></span></span></a> <a href="https://www.linkedin.com/company/finra/"><span class="fontawesome-icon-inline"><span class="fa-2x fa-inverse fa-linkedin fab"></span></span></a> <a href="https://www.facebook.com/FinancialIndustryRegulatoryAuthority/"><span class="fontawesome-icon-inline"><span class="fa-2x fa-facebook fa-inverse fab"></span></span></a> <a class="footer-link" href="/newsroom/follow-finra"><span class="fontawesome-icon-inline"><span class="fa-2x fa-inverse fa-rss fas"></span></span></a> <a href="https://tools.finra.org/email_subscriptions/?lists=prof"><span class="fontawesome-icon-inline"><span class="fa-2x fa-envelope fa-inverse far"></span></span></a></p>
+</div>
+      
+    </div>
+  </div>
+
+  </section>
+
+                   <section class="col-lg-7 order-lg-1 order-md-12 order-sm region region-footer-seventh">
+    <div id="block-finracopyright" data-block-plugin-id="block_content:150cdc5c-6b33-477b-95ac-565605bddbb3" class="block block-block-content block-block-content150cdc5c-6b33-477b-95ac-565605bddbb3">
+  
+    
+      <div class="content">
+      
+            <div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><p>©<span class="currentYear"></span> FINRA. All Rights Reserved.</p>
+
+<p>FINRA IS A REGISTERED TRADEMARK OF THE FINANCIAL INDUSTRY REGULATORY AUTHORITY, INC.</p>
+</div>
+      
+    </div>
+  </div>
+
+  </section>
+
+               </div>
+             </div>
+           </div>
+          </div>
+                  </div>
+          </footer>
+  </div>
+</div>
+
+  </div>
+
+    
+    <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","scriptPath":null,"pathPrefix":"","currentPath":"node\/180586","currentPathIsAdmin":false,"isFront":false,"currentLanguage":"en"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"ajaxPageState":{"libraries":"anchor_link\/popup,bootstrap_barrio\/breadcrumb,bootstrap_barrio\/form,bootstrap_barrio\/gesta_opensans,bootstrap_barrio\/global-styling,core\/drupal.states,finra_bootstrap_sass\/app-dynamic-reporting,finra_bootstrap_sass\/ctl-common,finra_bootstrap_sass\/ctl-grid,finra_bootstrap_sass\/finra-dynamic-reporting-explorer,finra_bootstrap_sass\/gesta,finra_bootstrap_sass\/global-styling,finra_bootstrap_sass\/opensans,finra_bootstrap_sass\/searchButton,finra_bootstrap_sass\/superfishFix,fontawesome\/fontawesome.webfonts,fontawesome\/fontawesome.webfonts.shim,paragraphs\/drupal.paragraphs.unpublished,superfish\/superfish,superfish\/superfish_style_blue,superfish\/superfish_supersubs,superfish\/superfish_supposition,system\/base","theme":"finra_bootstrap_sass","theme_token":null},"ajaxTrustedUrl":{"form_action_p_pvdeGsVG5zNF_XLGPTvYSKCf43t8qZYSwcfZl2uzM":true},"finraDynamicReportingExplorer":{"templateId":"template-ghdabf3f-53dr-4fb7-a059-8ca3ca173ab1","url":"https:\/\/services-dynarep.ddwa.finra.org"},"superfish":{"superfish-finra-homepage-nav-w-megame":{"id":"superfish-finra-homepage-nav-w-megame","sf":{"animation":{"opacity":"show","height":"show"},"speed":"slow","autoArrows":false,"disableHI":true},"plugins":{"supposition":true,"supersubs":true}},"superfish-finra-data-page-menu":{"id":"superfish-finra-data-page-menu","sf":{"animation":{"opacity":"show","height":"show"},"speed":"fast","autoArrows":false,"disableHI":true},"plugins":{"supposition":true,"supersubs":true}}},"elasticSearch":{"url":"https:\/\/searchapi.dev.finra.org\/search"},"ajax":[],"user":{"uid":0,"permissionsHash":"50d7526452663173e98c372911b5d4145a534da9a86de83bb82841446a5da07c"}}</script>
+<script src="/sites/default/files/js/js_EvycwGiyuUeFlOnxVX46DmJcCT7Gfei2BTO6tC1KNGM.js"></script>
+<script src="https://ddwa-cdn-us-east-1.ddwa.finra.org/ctl-common/ctl-common.js"></script>
+<script src="https://ddwa-cdn-us-east-1.ddwa.finra.org/ctl-grid/ctl-grid.js"></script>
+<script src="https://ddwa-cdn-us-east-1.ddwa.finra.org/app-dynamic-reporting/app-dynamic-reporting.js"></script>
+<script src="https://ddwa-cdn-us-east-1.ddwa.finra.org/ctl-common/assets/icons/pro-light-svg-icons/faSearch.js"></script>
+
+  <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"d7b664b4b4","applicationID":"486102969","transactionName":"YF0DMkEAWRcAARddC1kXIAVHCFgKTiYRQRRWVD0IXAVSOCINDUAWWFQNA0E9eQsFBzVdAUB7DghHE1gIDQcRGVpBUQQR","queueTime":0,"applicationTime":834,"atts":"TBoARAkaShk=","errorBeacon":"bam.nr-data.net","agent":""}</script><script>(function(){var js = "window['__CF$cv$params']={r:'78b67b369d1818c8',m:'HSZ.bANIUom3Qr4fuOt3d9RL0LZibhsnsuosDxXPFdk-1674036002-0-AUIGubZS47Zxm2xX2GHf1eOwqxdIL1TZWL5Qdcm/yGXNZmqWpquv+jjlr+GnD31BZrO0Wp+zSRV8VcXCA1Lubk0IVoNMgMNL9y3aRd1sFlubQKTCf1JNlxyYV8HhOXxE/ZW76CVAFwfhTsMLqLKPCVUHvdVqSdaHATw+BRZlJD1L1HDEI/Fkfw+T/+sfejONcg==',s:[0x8e1ba74971,0xa7f69a6591],u:'/cdn-cgi/challenge-platform/h/g'};var now=Date.now()/1000,offset=14400,ts=''+(Math.floor(now)-Math.floor(now%offset)),_cpo=document.createElement('script');_cpo.nonce='',_cpo.src='/cdn-cgi/challenge-platform/h/g/scripts/alpha/invisible.js?ts='+ts,document.getElementsByTagName('head')[0].appendChild(_cpo);";var _0xh = document.createElement('iframe');_0xh.height = 1;_0xh.width = 1;_0xh.style.position = 'absolute';_0xh.style.top = 0;_0xh.style.left = 0;_0xh.style.border = 'none';_0xh.style.visibility = 'hidden';document.body.appendChild(_0xh);function handler() {var _0xi = _0xh.contentDocument || _0xh.contentWindow.document;if (_0xi) {var _0xj = _0xi.createElement('script');_0xj.nonce = '';_0xj.innerHTML = js;_0xi.getElementsByTagName('head')[0].appendChild(_0xj);}}if (document.readyState !== 'loading') {handler();} else if (window.addEventListener) {document.addEventListener('DOMContentLoaded', handler);} else {var prev = document.onreadystatechange || function () {};document.onreadystatechange = function (e) {prev(e);if (document.readyState !== 'loading') {document.onreadystatechange = prev;handler();}};}})();</script></body>
+</html>
